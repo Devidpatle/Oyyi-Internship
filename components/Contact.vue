@@ -1,0 +1,63 @@
+<template>
+  <section id="contact" class="bg-slate-700 bg-opacity-20">
+    <div class="container mx-auto">
+      <div
+          data-aos="fade-up"
+          class="text-green-500 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl lg:pt-24 pb-8 font-inter font-extrabold"
+      >
+        Contact Us
+      </div>
+
+
+      <div class="mx-4 lg:w-1/2 md:w-2/3 mt-10 md:mx-auto">
+        <div class="flex flex-wrap -m-2">
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="name" class="leading-7 text-sm text-gray-200"
+              >Name</label
+              >
+              <input
+                  type="text"
+                  id="name"
+                  name="name"
+                  class="w-full bg-gray-600 bg-opacity-50 rounded text-sm text-gray-50 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+          </div>
+          <div class="p-2 w-1/2">
+            <div class="relative">
+              <label for="email" class="leading-7 text-sm text-gray-200"
+              >Email</label
+              >
+              <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full bg-gray-600 bg-opacity-50 rounded text-sm text-gray-50 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+              />
+            </div>
+          </div>
+          <div class="p-2 w-full">
+            <div class="relative">
+              <label for="message" class="leading-7 text-sm text-gray-200"
+              >Message</label
+              >
+              <textarea
+                  id="message"
+                  name="message"
+                  class="w-full bg-gray-600 bg-opacity-50 rounded h-32 text-sm text-gray-50 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
+              ></textarea>
+            </div>
+          </div>
+          <div class="p-6 mb-10 w-full">
+            <button
+                class="flex mx-auto text-zinc-900 font-semibold bg-green-500 py-3 px-8 hover:bg-emerald-300 rounded-lg text-base"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
