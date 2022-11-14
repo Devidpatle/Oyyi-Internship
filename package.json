@@ -1,7 +1,6 @@
 {
   "private": true,
   "scripts": {
-   "serve": "pm2 start npm --name 'oyyiFrontend' -- start",
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
