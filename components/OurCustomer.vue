@@ -24,17 +24,17 @@
         >
           <!-- <img src="images/rclogo.png" class="w-64 lg:w-72 grayscale" alt="rc" /> -->
           <img
-              src="images/logo-suip (1).png"
+              src="/images/logo-suip (1).png"
               class="w-auto h-20 xl:h-24 xl:w-auto"
               alt="suipme"
           />
           <img
-              src="images/lwook.png"
+              src="/images/lwook.png"
               class="w-20 h-20 xl:h-24 xl:w-24"
               alt="LwookMe"
           />
           <img
-              src="images/dabfile.png"
+              src="/images/dabfile.png"
               class="w-20 h-20 xl:h-24 xl:w-24"
               alt="dabfile"
           />
