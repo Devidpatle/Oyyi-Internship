@@ -10,7 +10,7 @@ export default defineNuxtConfig({
             ],
         }
     },
-    modules:["@nuxtjs/tailwindcss",'@nuxtjs/robots', '@nuxtjs/sitemap'],
+    modules:["@nuxtjs/tailwindcss",'@nuxtjs/robots'],
     plugins: [{ src: "@/plugins/aos", ssr: false, mode: "client" }],
     css: [
         '~/assets/css/style.css'

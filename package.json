@@ -16,7 +16,6 @@
   },
   "dependencies": {
     "@nuxtjs/robots": "^2.5.0",
-    "@nuxtjs/sitemap": "^2.4.0",
     "aos": "^2.3.4"
   }
 }
