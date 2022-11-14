@@ -2,7 +2,7 @@
   <div class="scroll-smooth">
     <Head>
       <Link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Montserrat:wght@300;400;600;800&family=Poppins:wght@300;400;500;600&display=swap"></Link>
-      <Title>Oyyi | Free Apis for Media Conversion , Machine Learning , Object Detection, Face Detection, Sentiment Analysis</Title>
+      <Title></Title>
     </Head>
     <Header/>
     <slot/>

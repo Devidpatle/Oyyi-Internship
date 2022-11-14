@@ -4,9 +4,7 @@
       class="bg-slate-900 bg-opacity-30 py-24 xl:py-36"
   >
     <div class="container mx-auto">
-      <div
-          class="flex flex-col sm:flex-row items-center justify-center gap-x-3 mx-5"
-      >
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-x-3 mx-5">
         <div class="flex flex-col sm:w-2/3">
           <h1 class="text-center text-gray-100 font-extrabold pb-10 text-3xl md:text-4xl xl:text-5xl text">
             We work with the Best Partners
