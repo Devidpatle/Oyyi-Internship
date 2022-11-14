@@ -1,14 +1,7 @@
 <template>
   <section id="contact" class="bg-slate-700 bg-opacity-20">
     <div class="container mx-auto">
-      <div
-          data-aos="fade-up"
-          class="text-green-500 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl lg:pt-24 pb-8 font-inter font-extrabold"
-      >
-        Contact Us
-      </div>
-
-
+      <div data-aos="fade-up" class="contact_title">Contact Us</div>
       <div class="mx-4 lg:w-1/2 md:w-2/3 mt-10 md:mx-auto">
         <div class="flex flex-wrap -m-2">
           <div class="p-2 w-1/2">
@@ -61,3 +54,8 @@
     </div>
   </section>
 </template>
+<style>
+.contact_title {
+  @apply text-green-500 text-center text-3xl sm:text-4xl lg:text-5xl xl:text-6xl lg:pt-24 pb-8 font-inter font-extrabold;
+}
+</style>

@@ -10,25 +10,17 @@
   @apply py-4 bg-green-200 bg-opacity-5 rounded-lg mx-5 lg:mx-40 my-7;
 }
 
-.readbtn {
-  @apply mx-24 mt-6 py-2 text-center text-sm border-2 border-green-400 border-opacity-5 rounded-lg font-poppins text-green-400 hover:text-emerald-700;
-}
+
 
 .api {
   @apply bg-green-200 bg-opacity-5 pt-7 rounded-2xl shadow-sm w-full h-80 sm:w-80 xl:h-80;
 }
 
-.api-desc {
-  @apply text-sm h-20 font-inter text-gray-400 text-center mx-4;
-}
 
 .api-coming {
   @apply flex flex-col gap-y-2 mb-10 shadow-md bg-slate-700 bg-opacity-10 py-4 w-full rounded-2xl;
 }
 
-.video-api-feature {
-  @apply font-inter text-sm font-semibold lg:w-20 text-center py-2 px-3 bg-emerald-700 bg-opacity-5 rounded-lg;
-}
 
 .ques {
   @apply px-3 lg:px-12 text-green-200;
@@ -40,5 +32,5 @@
 
 
 section {
-  padding: 50px 0;
+  padding: 30px 0;
 }
