@@ -1,32 +1,58 @@
 <template>
-  <section id="apis" class="bg-slate-600 bg-opacity-20 text-green-400">
+  <section id="apis" class="bg-gray-100 text-green-400">
     <div class="container mx-auto">
-      <h1 data-aos="fade-up" class="api_title">What APIs we have?</h1>
-      <div id="image-processing-api" class="mx-5 shadow-md bg-emerald-200 bg-opacity-5 rounded-2xl">
+      <h1 data-aos="fade-up" class="api_title">We Can Meet All Your Needs </h1>
+      <div id="media-api" class="mx-5 my-7 py-10 px-10 shadow bg-white rounded-2xl">
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
-          <img src="/images/image.svg" class="w-72 pl-8 mx-auto lg:w-2/5" alt="Image Processing api"/>
+          <img src="/images/media.png" class="w-72 mx-auto lg:w-2/5" alt="Image Processing api"/>
           <div class="flex flex-col">
-            <h1 class="image_processing_title">Image Processing API</h1>
-            <p class="processing_description">
+            <h1 class="media_api_title">Media APIs</h1>
+            <p class="media_description">
               Image Conversion through API or on the fly with web request.
               Almost all type of image manipulation like crop, resize, blur,
               sharp and many more can be done with just one request.
             </p>
             <a href="https://v1-docs.oyyi.xyz/image/conversion.html">
-              <h1 class="read_btn mr-auto" style="width: 100px">Read Docs</h1>
+              <h1 class="read_btn" style="width: 100px">Explore</h1>
             </a>
           </div>
         </div>
-
-        <div class="try_it_now_box">
-          <h1 class="text-sm lg:text-base mb-4 font-inter font-semibold">Try it now!</h1>
-          <span>curl <span class="text-green-500">--</span>form
-              <span class="text-green-500">"file=@my_image.jpg&sharp=10&resize=400,200,1"</span>
-              https:<span class="text-gray-400">//api.oyyi.xyz/v1/image/convert</span>
-            </span>
+      </div>
+      <div id="machine-learning-api" class="mx-5 my-7 py-10 px-10 shadow bg-white rounded-2xl">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
+          <img src="/images/machinelearning.png" class="w-72 mx-auto lg:w-2/5" alt="Image Processing api"/>
+          <div class="flex flex-col">
+            <h1 class="media_api_title">Machine Learning APIs</h1>
+            <p class="media_description">
+              Image Conversion through API or on the fly with web request.
+              Almost all type of image manipulation like crop, resize, blur,
+              sharp and many more can be done with just one request.
+            </p>
+            <a href="https://v1-docs.oyyi.xyz/image/conversion.html">
+              <h1 class="read_btn" style="width: 100px">Explore</h1>
+            </a>
+          </div>
         </div>
       </div>
-      <div class="apis_card_wrapper">
+      <div id="general-api" class="mx-5 my-7 py-10 px-10 shadow bg-white rounded-2xl">
+        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
+          <img src="/images/general.png" class="w-72 mx-auto lg:w-2/5" alt="Image Processing api"/>
+          <div class="flex flex-col">
+            <h1 class="media_api_title">General Purpose APIs</h1>
+            <p class="media_description">
+              Image Conversion through API or on the fly with web request.
+              Almost all type of image manipulation like crop, resize, blur,
+              sharp and many more can be done with just one request.
+            </p>
+            <a href="https://v1-docs.oyyi.xyz/image/conversion.html">
+              <h1 class="read_btn" style="width: 100px">Explore</h1>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+
+      <!-- <div class="apis_card_wrapper">
         <div class="api">
           <img src="https://img.icons8.com/ios/42/FFFFFF/laptop-play-video--v1.png" class="mx-auto mb-2" alt="thumbnail generator"/>
           <h1 class="text-center text-2xl font-bold py-4">Thumbnail Generator</h1>
@@ -84,30 +110,28 @@
             <h1 class="read_btn">Read Docs</h1>
           </a>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 
 </template>
 
 <style scoped>
-.try_it_now_box{
-  @apply bg-zinc-900 text-white text-center text-xs w-auto py-6 rounded-b-xl font-mono;
+
+.media_description{
+  @apply text-sm text-center font-inter font-light text-gray-600 mt-4 mx-5;
 }
-.processing_description{
-  @apply text-sm text-center font-inter font-light text-gray-400 lg:text-left mt-4 mx-5;
-}
-.image_processing_title{
-  @apply text-center text-green-400 text-3xl lg:text-4xl lg:text-left mt-5 mx-5 font-bold;
+.media_api_title{
+  @apply text-center text-green-600 text-3xl lg:text-4xl mt-5 mx-5 font-bold;
 }
 .apis_card_wrapper{
   @apply mt-20 px-5 py-10 xl:px-10 container flex flex-wrap items-center justify-center gap-x-16 gap-y-10 mx-auto;
 }
 .read_btn {
-  @apply mx-24 mt-6 py-2 text-center text-sm border-2 border-green-400 border-opacity-5 rounded-lg font-poppins text-green-400 hover:text-emerald-700;
+  @apply mx-auto mt-6 py-2 text-center text-sm border-2 border-gray-700 border-opacity-20 rounded-lg font-poppins text-green-600 hover:text-emerald-700;
 }
 .api_title{
-  @apply text-center text-green-500 mx-4 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-inter font-extrabold lg:pt-24 pb-24;
+  @apply text-center text-gray-700 mx-4 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-inter font-extrabold lg:pt-24 pb-24;
 }
 .api-desc {
   @apply text-sm h-20 font-inter text-gray-400 text-center mx-4;
