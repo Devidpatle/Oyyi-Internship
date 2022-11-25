@@ -1,5 +1,5 @@
 <template>
-  <section id="feature" class="bg-slate-600 bg-opacity-20">
+  <section id="feature" class="bg-gray-50">
     <div class="container mx-auto">
       <h1 data-aos="fade-up" class="feature_title">Why choose Oyyi?</h1>
       <div class="feature_wrapper">
@@ -7,10 +7,10 @@
         <FeatureCard title="Cost Effective" description="Free plan of the api service is suitable for small project and cheaper than any api provider."/>
         <FeatureCard title="Secure" description=" Our tech team has spent sufficient time designing secure api with HTTPS, TLS enabled."/>
         <FeatureCard title="Fast" description="Our web server are configured to deliver response within a seconds for large through puts of your services."/>
-        <FeatureCard title="Large Api Sets" description=" We have covered all the major api that are needed for any web services. 20+ apis and new api adding soon."/>
+        <FeatureCard title="Large API Sets" description=" We have covered all the major api that are needed for any web services. 20+ apis and new api adding soon."/>
         <FeatureCard title="SDKs" description=" Sdk for alm ost every popular programming language like Python , Php , Javascript. (Coming Soon)"/>
       </div>
-      <div class="bg-emerald-200 bg-opacity-5 py-10 mx-5 rounded-2xl" id="dashboard">
+      <div class="bg-gray-600 bg-opacity-10 py-10 mx-5 rounded-2xl" id="dashboard">
         <h1 class="block xl:hidden pb-14 text-center font-bold text-3xl lg:text-4xl text-green-500">A dashboard that is made just for you!</h1>
         <div class="dashboard_features_row">
           <div class="flex flex-col">
@@ -46,11 +46,11 @@ export default {
 </script>
 <style scoped>
 .feature_title {
-  @apply text-center mx-4 text-green-500 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold lg:pt-20 lg:pb-20;
+  @apply text-center mx-4 text-gray-700 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold lg:pt-20 lg:pb-20;
 }
 
 .dashboard_features {
-  @apply text-sm xl:text-xl text-green-200 w-20 sm:w-48 py-5 text-center font-semibold rounded-xl;
+  @apply text-sm xl:text-xl text-green-600 w-20 sm:w-48 py-5 text-center font-semibold rounded-xl;
 }
 
 .dashboard_feature_wrapper {
@@ -61,6 +61,6 @@ export default {
   @apply flex sm:flex-col flex-col-reverse lg:flex-row items-center justify-center gap-x-2 lg:mx-20 2xl:mx-40;
 }
 .feature_wrapper{
-  @apply py-16 container flex flex-wrap items-center justify-center gap-x-16 lg:gap-y-6 xl:px-10 mx-auto text-green-400;
+  @apply py-16 container flex flex-wrap items-center justify-center gap-x-16 lg:gap-y-6 xl:px-10 mx-auto text-green-600;
 }
 </style>
