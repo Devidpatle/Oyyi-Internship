@@ -1,10 +1,10 @@
 <template>
-  <section id="home" class="bg-slate-700 bg-opacity-20 font-inter">
+  <section id="home" class="bg-gray-50 font-inter">
     <div class="container lg:pt-28 lg:px-6 mx-auto">
       <div class="hero_wrapper_row">
         <div class="lg:w-2/3 w-full px-2">
-          <h1 id="main" class="hero_title">APIs <span class="text-gray-200 font-bold">Made Out Of<br/>Perfection!</span></h1>
-          <p class="hero_description">Our multiple api are made to meet your daily need as developer and implement
+          <h1 id="main" class="hero_title">APIs <span class="text-gray-700 font-bold">Made Out Of<br/>Perfection!</span></h1>
+          <p class="hero_description">Our multiple APIs are made to meet your daily need as developer and implement
             without getting worried about coding it yourself.Apis made for every developer need starting from media
             conversion to Face Detection and sentiment Analysis.</p>
           <div class="btn_bottom_wrapper">
@@ -25,7 +25,7 @@
 }
 
 .hero_description {
-  @apply text-center mx-4 md:mx-0 mb-8 lg:mr-20 2xl:mr-60 lg:py-8 text-sm font-inter font-light lg:text-base 2xl:text-lg leading-relaxed lg:text-left text-gray-400;
+  @apply text-center mx-4 md:mx-0 mb-8 lg:mr-20 2xl:mr-60 lg:py-8 text-sm font-inter font-light lg:text-base 2xl:text-lg leading-relaxed lg:text-left text-gray-600;
 }
 
 .hero_title {
