@@ -1,7 +1,7 @@
 <template>
   <section
       id="ourcustomers"
-      class="bg-slate-900 bg-opacity-30 py-24 xl:py-36"
+      class="bg-gray-700 py-24 xl:py-36"
   >
     <div class="container mx-auto">
       <div class="flex flex-col sm:flex-row items-center justify-center gap-x-3 mx-5">
@@ -18,7 +18,6 @@
         <div
             class="flex flex-wrap justify-center mx-5 gap-x-8 gap-y-10 py-10 xl:px-10 rounded-3xl bg-opacity-10"
         >
-          <!-- <img src="images/rclogo.png" class="w-64 lg:w-72 grayscale" alt="rc" /> -->
           <img
               src="public/images/logo-suip.png"
               class="w-auto h-20 xl:h-24 xl:w-auto"
