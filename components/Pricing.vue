@@ -54,7 +54,7 @@ export default {
 </script>
 <style scoped>
 .pricing_button{
-  @apply py-2 px-4 font-semibold bg-green-500 hover:bg-emerald-300 text-white w-full transition ease-in duration-200 text-center shadow-md rounded-lg;
+  @apply py-2 px-4 flex justify-center font-semibold bg-green-500 hover:bg-green-600 text-white w-full transition ease-in duration-200 text-center shadow-md rounded-lg;
 }
 .pricing_title{
   @apply text-gray-700 text-center mx-4 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl lg:pt-20 font-inter font-extrabold;
