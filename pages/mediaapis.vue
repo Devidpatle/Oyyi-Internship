@@ -1,25 +1,14 @@
 <template>
-    <section>
-        <div class="container lg:pt-28 lg:px-6 mx-auto">
-      <div class="hero_wrapper_row">
-        <div class="lg:w-2/3 w-full px-2">
-          <h1 id="main" class="hero_title">APIs <span class="text-gray-700 font-bold">That Meet Your<br/>Media Needs!</span></h1>
-          <p class="hero_description">Our multiple APIs are made to meet your daily need as developer and implement
-            without getting worried about coding it yourself.Apis made for every developer need starting from media
-            conversion to Face Detection and sentiment Analysis.</p>
-          <div class="btn_bottom_wrapper">
-            <a href="#pricing" class="btn_get_started">Get Started</a>
-            <a href="#apis" class="btn_explore">Explore</a>
-          </div>
-        </div>
-        <div data-aos="zoom-in" class="lg:w-1/2 md:w-5/6 w-5/6">
-                  <img src="/images/media1.png" class="w-96 mx-auto " alt="Image Processing api"/>
-        </div>
-      </div>
-    </div>
+<mediahero/>
 
-    <div class="container lg:pt-28 lg:px-6 mx-auto">
-        <div id="image-processing-api" class="mx-5 shadow-md bg-gray-100 rounded-2xl">
+    <section class="font-inter">
+
+      <div class="bg-gray-100 pb-12">
+            <h1 data-aos="fade-up" class="our_api_title">Our APIs</h1>
+
+
+    <div id="apis" class="container lg:pt-28 lg:px-6 mx-auto">
+        <div id="image-processing-api" class="mx-5 shadow-md bg-gray-200 rounded-2xl">
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
           <img src="/images/image.svg" class="w-72 pl-8 mx-auto lg:w-2/5" alt="Image Processing api"/>
           <div class="flex flex-col">
@@ -29,7 +18,7 @@
               Almost all type of image manipulation like crop, resize, blur,
               sharp and many more can be done with just one request.
             </p>
-            <a href="https://v1-docs.oyyi.xyz/image/conversion.html">
+            <a href="https://docs.oyyi.xyz/media/image-conversion-api.html">
               <h1 class="read_btn mr-auto" style="width: 100px">Read Docs</h1>
             </a>
           </div>
@@ -48,36 +37,38 @@
       <div class="apis_card_wrapper">
         <div class="api">
           <img src="https://img.icons8.com/ios/42/374151/laptop-play-video--v1.png" class="mx-auto mb-2" alt="thumbnail generator"/>
-          <h1 class="text-center text-2xl font-bold py-4">Thumbnail Generator</h1>
+          <h1 class="text-center text-green-600 text-2xl font-bold py-4">Thumbnail Generator</h1>
           <p class="api-desc">
             Generate Thumbnail for Video file, PDF File and Image File with
             simple API Request. No Restriction or Charges.
           </p>
-          <a href="https://v1-docs.oyyi.xyz/thumbnail.html">
+          <a href="https://docs.oyyi.xyz/media/thumbnail-generator-api.html">
             <h1 class="read_btn">Read Docs</h1>
           </a>
         </div>
         <div class="api">
           <img src="https://img.icons8.com/ios/42/374151/merge-horizontal.png" class="mx-auto mb-2" alt="Optimization"/>
-          <h1 class="text-center text-2xl font-bold py-4">Optimizer</h1>
+          <h1 class="text-center text-green-600 text-2xl font-bold py-4">Optimizer</h1>
           <p class="api-desc">
             Compress image or pdf with lossless image or pdf compression
             algorithm without losing quality
           </p>
-          <a href="https://v1-docs.oyyi.xyz/optimizer.html">
+          <a href="https://docs.oyyi.xyz/media/file-optimizer-api.html">
             <h1 class="read_btn">Read Docs</h1>
           </a>
         </div>
       </div>
 
+      </div>
+
       <div class="container mx-auto">
       <h1 data-aos="fade-up" class="upcoming_api_title">Our Upcoming APIs</h1>
-      <div class="mx-5 shadow-sm bg-gray-100 py-1 rounded-2xl mt-24">
+      <div class="mx-5 shadow-sm bg-gray-100 py-1 rounded-2xl mt-12">
         <div class="upcoming_api_wrapper">
           <img src="/images/video.svg" class="hidden lg:block w-40 md:ml-20 md:w-72" alt="video processing"/>
           <div class="flex flex-col">
             <img src="/images/video.svg" class="w-40 mx-auto lg:hidden" alt="video processing"/>
-            <h1 class="text-3xl text-center lg:text-4xl mx-5 font-bold text-green-400">Video Processing API</h1>
+            <h1 class="text-3xl text-center lg:text-4xl mx-5 font-bold text-green-600">Video Processing API</h1>
             <p class="video_processing_description">
               Video processing api allow you to easily encode/ decode videos in many different format like MP4, 3GP ,
               MKV, FLV, Webm and HLS. Our services are capable of transcoding video faster at cheaper rate.
@@ -138,14 +129,14 @@
   @apply bg-zinc-900 text-white text-center text-xs w-auto py-6 rounded-b-xl font-mono;
 }
 .processing_description {
-  @apply text-sm text-center font-inter font-light text-gray-400 mt-4 mx-5;
+  @apply text-sm text-center font-inter font-light text-gray-600 mt-4 mx-5;
 }
 .image_processing_title {
   @apply text-center text-green-600 text-3xl lg:text-4xl mt-5 mx-5 font-bold;
 }
 
 .media_description {
-  @apply text-sm text-center font-inter font-light text-gray-600 mt-4 mx-5;
+  @apply text-sm text-center font-inter text-gray-600 mt-4 mx-5;
 }
 .media_api_title {
   @apply text-center text-green-600 text-3xl lg:text-4xl mt-5 mx-5 font-bold;
@@ -155,31 +146,36 @@
 }
 
 .api {
-  @apply bg-gray-100 pt-7 rounded-2xl shadow-sm w-full h-80 sm:w-80 xl:h-80;
+  @apply bg-gray-200 pt-7 rounded-3xl shadow-sm w-full h-80 sm:w-80 xl:h-80;
 }
 
 .api-desc {
-  @apply text-sm h-20 font-inter text-gray-400 text-center mx-4;
+  @apply text-sm h-20 font-inter text-gray-500 text-center mx-4;
 }
 
 .read_btn {
-  @apply mx-auto mt-6 py-2 text-center text-sm border-2 border-gray-700 border-opacity-20 rounded-lg font-poppins text-green-600 hover:text-emerald-700;
+  @apply mx-auto w-40 mt-6 py-2 text-center text-sm border-2 border-gray-700 border-opacity-20 rounded-lg font-poppins text-green-600 hover:text-emerald-700;
 }
 
 .video_feature_wrapper {
-  @apply flex flex-wrap justify-center mx-4 lg:flex-row gap-3 pt-10 text-green-300;
+  @apply flex flex-wrap justify-center mx-4 lg:flex-row gap-3 pt-10 text-green-500;
 }
 
 .video_processing_description {
-  @apply text-center text-sm font-inter font-light text-gray-400 mt-4 mx-5;
+  @apply text-center text-sm font-inter font-light text-gray-600 mt-4 mx-5;
 }
 
+.our_api_title {
+  @apply text-center mx-4 py-10 text-gray-700 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold lg:pt-20 lg:pb-2;
+}
+
+
 .upcoming_api_title {
-  @apply text-center mx-4 text-gray-700 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold lg:pt-20 lg:pb-20;
+  @apply text-center mx-4 py-10 text-gray-700 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold lg:pt-20 lg:pb-20;
 }
 
 .video-api-feature {
-  @apply font-inter text-sm font-semibold lg:w-20 text-center py-2 px-3 bg-emerald-700 bg-opacity-5 rounded-lg;
+  @apply font-inter text-sm font-semibold lg:w-24 text-center py-2 px-3 bg-emerald-700 bg-opacity-5 rounded-lg;
 }
 
 .upcoming_api_wrapper {
