@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-item-mobile {
+  @apply block px-2 py-4 transition duration-300;
+}
+
+.faq {
+  @apply py-4 bg-green-200 bg-opacity-5 rounded-lg mx-5 lg:mx-40 my-7;
+}
+
+
+.api {
+  @apply bg-gray-200 rounded-3xl pt-7 pb-7 w-full h-auto sm:w-80 xl:h-80;
+}
+
+
+.api-coming {
+  @apply flex flex-col gap-y-2 mb-10 shadow-md bg-slate-700 bg-opacity-10 py-4 w-full rounded-2xl;
+}
+
+
+.ques {
+  @apply px-3 lg:px-12 text-green-200;
+}
+
+.ans {
+  @apply text-sm lg:text-base px-3 lg:px-12 mt-8 text-green-100;
+}
+
+
+section {
+  padding-top:30px;
+  padding-bottom: 30px;
+}
