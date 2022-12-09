@@ -2,7 +2,7 @@
   <section id="upcoming" class="bg-gray-100">
     <div class="container mx-auto">
       <h1 data-aos="fade-up" class="upcoming_api_title">Our Upcoming APIs</h1>
-      <div class="mx-5 shadow-sm bg-gray-50 py-1 rounded-2xl mt-24">
+      <!-- <div class="mx-5 shadow-sm bg-gray-50 py-1 rounded-2xl mt-24">
         <div class="upcoming_api_wrapper">
           <img src="/images/video.svg" class="hidden lg:block w-40 md:ml-20 md:w-72" alt="video processing"/>
           <div class="flex flex-col">
@@ -23,13 +23,13 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
       <div class="mx-5">
         <div class="flex flex-col lg:flex-row lg:gap-4 font-montserrat text-green-400 font-bold my-20">
-          <div class="api-coming">
+          <!-- <div class="api-coming">
             <img src="https://img.icons8.com/ios/50/FFFFFF/mind-map.png" class="w-7 mx-auto" alt="Machine learning Api"/>
             <h3 class="text-lg self-center">Machine Learning API</h3>
-          </div>
+          </div> -->
           <div class="api-coming">
             <img src="https://img.icons8.com/ios/50/FFFFFF/internet.png" class="w-7 mx-auto" alt="website hosting api"/>
             <h3 class="text-lg self-center">Website Hosting API</h3>
