@@ -1,10 +1,12 @@
 <template>
-  <section id="apis" class="bg-gray-100 text-green-400">
+  <section id="apis" class="bg-white text-green-400">
     <div class="container mx-auto">
       <h1 data-aos="fade-up" class="api_title">We Can Meet All Your Needs </h1>
-      <div id="media-api" class="mx-5 my-7 py-10 px-10 shadow bg-white rounded-2xl">
+      <div id="media-api" class="mx-5 my-7 py-10 px-10 shadow bg-gray-200 bg-opacity-60 rounded-2xl">
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
-          <img src="/images/media.png" class="w-72 mx-auto lg:w-2/5" alt="Image Processing api"/>
+          <div class="w-full lg:w-2/3">
+          <img src="/images/media.png" class="h-55 mx-auto" alt="Image Processing api"/>
+          </div>
           <div class="flex flex-col">
             <h1 class="media_api_title">Media APIs</h1>
             <p class="media_description">
@@ -12,15 +14,17 @@
               Almost all type of image manipulation like crop, resize, blur,
               sharp and many more can be done with just one request.
             </p>
-            <a href="https://v1-docs.oyyi.xyz/image/conversion.html">
+            <a href="/mediaapis">
               <h1 class="read_btn" style="width: 100px">Explore</h1>
             </a>
           </div>
         </div>
       </div>
-      <div id="machine-learning-api" class="mx-5 my-7 py-10 px-10 shadow bg-white rounded-2xl">
+      <div id="machine-learning-api" class="mx-5 my-7 py-10 px-10 shadow bg-gray-200 bg-opacity-60 rounded-2xl">
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
-          <img src="/images/machinelearning.png" class="w-72 mx-auto lg:w-2/5" alt="Image Processing api"/>
+          <div class="w-full lg:w-2/3">
+          <img src="/images/machinelearning.png" class="h-55 mx-auto" alt="Machine Learning API"/>
+          </div>
           <div class="flex flex-col">
             <h1 class="media_api_title">Machine Learning APIs</h1>
             <p class="media_description">
@@ -28,15 +32,17 @@
               Almost all type of image manipulation like crop, resize, blur,
               sharp and many more can be done with just one request.
             </p>
-            <a href="https://v1-docs.oyyi.xyz/image/conversion.html">
+            <a href="/machinelearning">
               <h1 class="read_btn" style="width: 100px">Explore</h1>
             </a>
           </div>
         </div>
       </div>
-      <div id="general-api" class="mx-5 my-7 py-10 px-10 shadow bg-white rounded-2xl">
+      <div id="general-api" class="mx-5 my-7 py-10 px-10 shadow bg-gray-200 bg-opacity-60 rounded-2xl">
         <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
-          <img src="/images/general.png" class="w-72 mx-auto lg:w-2/5" alt="Image Processing api"/>
+          <div class="w-full lg:w-2/3">
+          <img src="/images/general.png" class="h-42 mx-auto" alt="General Purpose API"/>
+          </div>
           <div class="flex flex-col">
             <h1 class="media_api_title">General Purpose APIs</h1>
             <p class="media_description">
@@ -44,7 +50,7 @@
               Almost all type of image manipulation like crop, resize, blur,
               sharp and many more can be done with just one request.
             </p>
-            <a href="https://v1-docs.oyyi.xyz/image/conversion.html">
+            <a href="">
               <h1 class="read_btn" style="width: 100px">Explore</h1>
             </a>
           </div>
@@ -119,10 +125,10 @@
 <style scoped>
 
 .media_description{
-  @apply text-sm text-center font-inter font-light text-gray-600 mt-4 mx-5;
+  @apply text-sm text-center font-inter font-light text-gray-900 mt-4 mx-5;
 }
 .media_api_title{
-  @apply text-center text-green-600 text-3xl lg:text-4xl mt-5 mx-5 font-bold;
+  @apply text-center text-green-800 text-3xl lg:text-4xl mt-5 mx-5 font-bold;
 }
 .apis_card_wrapper{
   @apply mt-20 px-5 py-10 xl:px-10 container flex flex-wrap items-center justify-center gap-x-16 gap-y-10 mx-auto;
@@ -131,7 +137,7 @@
   @apply mx-auto mt-6 py-2 text-center text-sm border-2 border-gray-700 border-opacity-20 rounded-lg font-poppins text-green-600 hover:text-emerald-700;
 }
 .api_title{
-  @apply text-center text-gray-700 mx-4 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-inter font-extrabold lg:pt-24 pb-24;
+  @apply text-center text-gray-700 mx-4 py-5 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-inter font-extrabold lg:pt-24 lg:pb-24;
 }
 .api-desc {
   @apply text-sm h-20 font-inter text-gray-400 text-center mx-4;
