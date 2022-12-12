@@ -1,12 +1,13 @@
 <template>
-  <section id="apis" class="bg-white text-green-400">
+  <section id="apis" class="bg-white text-green-400 py-12">
     <div class="container mx-auto">
       <h1 data-aos="fade-up" class="api_title">We Can Meet All Your Needs </h1>
-      <div id="media-api" class="mx-5 my-7 py-10 px-10 shadow bg-gray-200 bg-opacity-60 rounded-2xl">
-        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
-          <div class="w-full lg:w-2/3">
+      
+      <div id="media-api" class="mx-5 my-10 py-5 px-5 bg-[url('/images/mediabg.png')] rounded-2xl">
+        <div class="flex bg-white backdrop-blur-xl py-16 bg-opacity-80 rounded-2xl flex-col lg:flex-row lg:items-center lg:justify-center">
+          <!-- <div class="w-full lg:w-2/3">
           <img src="/images/media.png" class="h-55 mx-auto" alt="Image Processing api"/>
-          </div>
+          </div> -->
           <div class="flex flex-col">
             <h1 class="media_api_title">Media APIs</h1>
             <p class="media_description">
@@ -20,11 +21,11 @@
           </div>
         </div>
       </div>
-      <div id="machine-learning-api" class="mx-5 my-7 py-10 px-10 shadow bg-gray-200 bg-opacity-60 rounded-2xl">
-        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
-          <div class="w-full lg:w-2/3">
+      <div id="machine-learning-api" class="mx-5 my-10 py-5 px-5 bg-[url('/images/mlbg.png')] rounded-2xl">
+        <div class="flex bg-white backdrop-blur-xl py-16 bg-opacity-80 rounded-2xl flex-col lg:flex-row lg:items-center lg:justify-center">
+          <!-- <div class="w-full lg:w-2/3">
           <img src="/images/machinelearning.png" class="h-55 mx-auto" alt="Machine Learning API"/>
-          </div>
+          </div> -->
           <div class="flex flex-col">
             <h1 class="media_api_title">Machine Learning APIs</h1>
             <p class="media_description">
@@ -38,11 +39,11 @@
           </div>
         </div>
       </div>
-      <div id="general-api" class="mx-5 my-7 py-10 px-10 shadow bg-gray-200 bg-opacity-60 rounded-2xl">
-        <div class="flex flex-col lg:flex-row lg:items-center lg:justify-center my-3 xl:mx-20">
-          <div class="w-full lg:w-2/3">
+      <div id="general-api" class="mx-5 my-10 py-5 px-5 bg-[url('/images/generalbg.png')] rounded-2xl">
+        <div class="flex bg-white backdrop-blur-xl py-16 bg-opacity-80 rounded-2xl flex-col lg:flex-row lg:items-center lg:justify-center">
+          <!-- <div class="w-full lg:w-2/3">
           <img src="/images/general.png" class="h-42 mx-auto" alt="General Purpose API"/>
-          </div>
+          </div> -->
           <div class="flex flex-col">
             <h1 class="media_api_title">General Purpose APIs</h1>
             <p class="media_description">
@@ -50,73 +51,13 @@
               Almost all type of image manipulation like crop, resize, blur,
               sharp and many more can be done with just one request.
             </p>
-            <a href="">
+            <a href="/generalapis">
               <h1 class="read_btn" style="width: 100px">Explore</h1>
             </a>
           </div>
         </div>
       </div>
       
-
-      <!-- <div class="apis_card_wrapper">
-        <div class="api">
-          <img src="https://img.icons8.com/ios/42/FFFFFF/laptop-play-video--v1.png" class="mx-auto mb-2" alt="thumbnail generator"/>
-          <h1 class="text-center text-2xl font-bold py-4">Thumbnail Generator</h1>
-          <p class="api-desc">
-            Generate Thumbnail for Video file, PDF File and Image File with
-            simple API Request. No Restriction or Charges.
-          </p>
-          <a href="https://v1-docs.oyyi.xyz/thumbnail.html">
-            <h1 class="read_btn">Read Docs</h1>
-          </a>
-        </div>
-        <div class="api">
-          <img src="https://img.icons8.com/ios/42/FFFFFF/merge-horizontal.png" class="mx-auto mb-2" alt="Optimization"/>
-          <h1 class="text-center text-2xl font-bold py-4">Optimizer</h1>
-          <p class="api-desc">
-            Compress image or pdf with lossless image or pdf compression
-            algorithm without losing quality
-          </p>
-          <a href="https://v1-docs.oyyi.xyz/optimizer.html">
-            <h1 class="read_btn">Read Docs</h1>
-          </a>
-        </div>
-        <div class="api">
-          <img src="https://img.icons8.com/ios/42/FFFFFF/qr-code.png" class="mx-auto mb-2" alt="Qr Code Generator"/>
-          <h1 class="text-center text-2xl font-bold py-4">QR Code Generator</h1>
-          <p class="api-desc">
-            Generate Qr code for your web app / Mobile app or for any purpose
-            with a single api request.
-          </p>
-          <a href="https://v1-docs.oyyi.xyz/qr_generator.html">
-            <h1 class="read_btn">Read Docs</h1>
-          </a>
-        </div>
-        <div class="api">
-          <img src="https://img.icons8.com/ios/42/FFFFFF/user-male-circle.png" class="mx-auto mb-2" alt="avatar generator"/>
-          <h1 class="text-center text-2xl font-bold py-4">Avatar Generator
-          </h1>
-          <p class="api-desc">
-            Get avatar for your user for web app or mobile app , based on
-            username or completely random avatar without any external library
-          </p>
-          <a href="https://v1-docs.oyyi.xyz/avatar.html">
-            <h1 class="read_btn">Read Docs</h1>
-          </a>
-        </div>
-        <div class="api">
-          <img src="https://img.icons8.com/ios/42/FFFFFF/database-export.png" class="mx-auto mb-2" alt="fake data generator"/>
-          <h1 class="text-center text-2xl font-bold py-4">Fake Data Generator</h1>
-          <p class="api-desc">
-            Generate fake data easily with single web request and populate
-            your test database or app testing. Supported almost all types of
-            data.
-          </p>
-          <a href="https://v1-docs.oyyi.xyz/fake/generator.html">
-            <h1 class="read_btn">Read Docs</h1>
-          </a>
-        </div>
-      </div> -->
     </div>
   </section>
 
@@ -125,19 +66,19 @@
 <style scoped>
 
 .media_description{
-  @apply text-sm text-center font-inter font-light text-gray-900 mt-4 mx-5;
+  @apply text-sm text-center font-inter font-light text-gray-800 mt-4 mx-5;
 }
 .media_api_title{
-  @apply text-center text-green-800 text-3xl lg:text-4xl mt-5 mx-5 font-bold;
+  @apply text-center text-gray-700 font-montserrat text-3xl lg:text-4xl mx-5 font-semibold;
 }
 .apis_card_wrapper{
   @apply mt-20 px-5 py-10 xl:px-10 container flex flex-wrap items-center justify-center gap-x-16 gap-y-10 mx-auto;
 }
 .read_btn {
-  @apply mx-auto mt-6 py-2 text-center text-sm border-2 border-gray-700 border-opacity-20 rounded-lg font-poppins text-green-600 hover:text-emerald-700;
+  @apply mx-auto mt-6 py-2 text-center font-semibold text-sm border-2 border-gray-700 bg-white bg-opacity-40 border-opacity-20 rounded-lg font-poppins text-primary hover:text-emerald-700;
 }
 .api_title{
-  @apply text-center text-gray-700 mx-4 py-5 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-inter font-extrabold lg:pt-24 lg:pb-24;
+  @apply text-center text-gray-700 mx-4 py-5 text-3xl sm:text-4xl lg:text-5xl font-inter font-bold lg:pt-24 lg:pb-24;
 }
 .api-desc {
   @apply text-sm h-20 font-inter text-gray-400 text-center mx-4;
