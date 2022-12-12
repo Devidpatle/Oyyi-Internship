@@ -12,7 +12,7 @@
 
 
 .api {
-  @apply bg-gray-200 rounded-3xl pt-7 pb-7 w-full h-auto sm:w-80 xl:h-80;
+  @apply bg-gray-100 bg-opacity-50 flex flex-col justify-center rounded-3xl pt-7 pb-7 w-full h-auto sm:w-80 xl:h-96;
 }
 
 
@@ -30,7 +30,3 @@
 }
 
 
-section {
-  padding-top:30px;
-  padding-bottom: 30px;
-}
