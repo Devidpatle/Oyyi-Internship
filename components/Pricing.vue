@@ -1,5 +1,5 @@
 <template>
-  <section id="pricing" class="bg-gray-50 pb-4">
+  <section id="pricing" class="bg-white py-12">
     <div class="container mx-auto">
       <div data-aos="fade-up" class="pricing_title">Affordable . Simple . Transparent</div>
       <div class="pricing_box_wrapper">
@@ -54,10 +54,10 @@ export default {
 </script>
 <style scoped>
 .pricing_button{
-  @apply py-2 px-4 flex justify-center font-semibold bg-green-500 hover:bg-green-600 text-white w-full transition ease-in duration-200 text-center shadow-md rounded-lg;
+  @apply py-2 px-4 flex justify-center font-semibold bg-primary text-white w-full transition ease-in duration-200 text-center shadow-md rounded-lg;
 }
 .pricing_title{
-  @apply text-gray-700 text-center mx-4 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl lg:pt-20 font-inter font-extrabold;
+  @apply text-gray-700 text-center mx-4 text-3xl sm:text-4xl lg:text-5xl lg:pt-20 font-inter font-bold;
 }
 .pricing_box_wrapper{
   @apply flex flex-col mx-5 gap-y-10 items-center md:flex-row md:justify-center md:gap-14 lg:gap-20 mt-10 mb-24 py-10;
@@ -66,7 +66,7 @@ export default {
   @apply shadow-md rounded-2xl w-80 bg-gray-100 p-4;
 }
 .pricing_enterprise{
-  @apply shadow-lg border-2 border-green-500 border-opacity-40 rounded-2xl w-80 bg-gray-100 p-4;
+  @apply shadow-lg border-2 border-primary border-opacity-40 rounded-2xl w-80 bg-gray-100 p-4;
 }
 .pricing_custom{
   @apply shadow-md rounded-2xl w-80 bg-gray-100 p-4;
