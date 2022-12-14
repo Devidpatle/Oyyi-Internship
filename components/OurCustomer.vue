@@ -19,17 +19,17 @@
             class="flex flex-wrap justify-center mx-5 gap-x-8 gap-y-10 py-10 xl:px-10 rounded-3xl bg-opacity-10"
         >
           <img
-              src="/images/logo-suip (1).png"
+              src="images/logo-suip (1).png"
               class="w-auto h-16 xl:h-24 xl:w-auto"
               alt="suipme"
           />
           <img
-              src="/images/lwook.png"
+              src="images/lwook.png"
               class="w-auto h-16 xl:h-24 xl:w-24"
               alt="LwookMe"
           />
           <img
-              src="/images/dabfile.png"
+              src="images/dabfile.png"
               class="w-auto h-16 xl:h-24 xl:w-24"
               alt="dabfile"
           />
