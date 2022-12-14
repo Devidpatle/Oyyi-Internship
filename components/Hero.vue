@@ -1,29 +1,38 @@
 <template>
   <section id="home" class="bg-[url('/images/herobg.png')] font-inter">
-  <div id="notice" class="flex justify-center gap-5 bg-red-500">
-      <p class="notice">Authentication required for using APIs from 31st December.</p>
+    <div id="notice" class="flex justify-center gap-5 bg-red-500">
+      <p class="notice">
+        Authentication required for using APIs from 31st December.
+      </p>
       <button onclick="hideClose()" class="close_button">Close</button>
-  </div>
-      <div class="bg-white backdrop-blur-3xl bg-opacity-50">
-
-    <div class="container py-28 lg:px-6 mx-auto">
-      <div class="hero_wrapper_row">
-        <div class="lg:w-2/3 w-full px-2">
-          <h1 id="main" class="hero_title">APIs <span class="text-gray-800 font-bold">Made Out Of<br/>Perfection!</span></h1>
-          <p class="hero_description">Our multiple APIs are made to meet your daily need as developer and implement
-            without getting worried about coding it yourself.Apis made for every developer need starting from media
-            conversion to Face Detection and sentiment Analysis.</p>
-          <div class="btn_bottom_wrapper">
-            <a href="#pricing" class="btn_get_started">Get Started</a>
-            <a href="#apis" class="btn_explore">Explore</a>
+    </div>
+    <div class="bg-white backdrop-blur-3xl bg-opacity-50">
+      <div class="container py-28 lg:px-6 mx-auto">
+        <div class="hero_wrapper_row">
+          <div class="lg:w-2/3 w-full px-2">
+            <h1 id="main" class="hero_title">
+              APIs
+              <span class="text-gray-800 font-bold"
+                >Made Out Of<br />Perfection!</span
+              >
+            </h1>
+            <p class="hero_description">
+              Our multiple APIs are made to meet your daily need as developer
+              and implement without getting worried about coding it
+              yourself.Apis made for every developer need starting from media
+              conversion to Face Detection and sentiment Analysis.
+            </p>
+            <div class="btn_bottom_wrapper">
+              <a href="#pricing" class="btn_get_started">Get Started</a>
+              <a href="#apis" class="btn_explore">Explore</a>
+            </div>
           </div>
-        </div>
-        <!-- <div data-aos="zoom-in" class="hidden lg:block lg:w-1/2 md:w-5/6 w-5/6">
+          <!-- <div data-aos="zoom-in" class="hidden lg:block lg:w-1/2 md:w-5/6 w-5/6">
           <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_vybwn7df.json" background="transparent" speed="1" loop autoplay></lottie-player>
         </div> -->
+        </div>
       </div>
     </div>
-      </div>
   </section>
 </template>
 <style scoped>
@@ -32,7 +41,7 @@
 }
 
 .notice {
-  @apply text-center text-white text-xs md:text-sm font-inter bg-red-500 py-1 font-normal
+  @apply text-center text-white text-xs md:text-sm font-inter bg-red-500 py-1 font-normal;
 }
 
 .hero_description {
@@ -56,13 +65,13 @@
 }
 
 .close_button {
-  @apply font-semibold text-xs text-white font-montserrat border px-1 my-1 rounded-sm
+  @apply font-semibold text-xs text-white font-montserrat border px-1 my-1 rounded-sm;
 }
 </style>
 
 <script>
-function hideClose(){
-    const notice = document.getElementById("notice");
-    notice.style.display = 'none';
+function hideClose() {
+  const notice = document.getElementById("notice");
+  notice.style.display = "none";
 }
 </script>
