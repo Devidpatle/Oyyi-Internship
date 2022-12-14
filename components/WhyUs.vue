@@ -3,12 +3,12 @@
     <div class="container mx-auto">
       <h1 data-aos="fade-up" class="feature_title">Why <span class="text-primary">Choose Oyyi</span></h1>
       <div class="feature_wrapper">
-        <FeatureCard title="Simple to Use" description=" Our Api are simple to user with any programming language with network Library."/>
-        <FeatureCard title="Cost Effective" description="Free plan of the api service is suitable for small project and cheaper than any api provider."/>
-        <FeatureCard title="Secure" description=" Our tech team has spent sufficient time designing secure api with HTTPS, TLS enabled."/>
-        <FeatureCard title="Fast" description="Our web server are configured to deliver response within a seconds for large through puts of your services."/>
-        <FeatureCard title="Large API Sets" description=" We have covered all the major api that are needed for any web services. 20+ apis and new api adding soon."/>
-        <FeatureCard title="SDKs" description=" Sdk for alm ost every popular programming language like Python , Php , Javascript. (Coming Soon)"/>
+        <FeatureCard title="Simple to Use" description=" Our API are simple to use with any programming language with network Library."/>
+        <FeatureCard title="Cost Effective" description="Free plan of the API service is suitable for small projects and cheaper than any API provider."/>
+        <FeatureCard title="Secure" description=" Our tech team has spent sufficient time designing secure API with HTTPS, TLS enabled."/>
+        <FeatureCard title="Fast" description="Our Web Servers are configured to deliver response within seconds for large through puts of your services."/>
+        <FeatureCard title="Large API Sets" description=" We have covered all the major API that are needed for any web services. 20+ APIs and New API adding soon."/>
+        <FeatureCard title="SDKs" description=" SDK for almost every popular programming language like Python, PHP, Javascript. (Coming Soon)"/>
       </div>
       <div class="py-10 mx-5 rounded-2xl" id="dashboard">
         <h1 class="block xl:hidden pb-14 text-center font-bold text-3xl text-gray-700">A Dashboard that is made just for you!</h1>
