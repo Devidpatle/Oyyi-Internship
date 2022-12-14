@@ -105,7 +105,6 @@
 .hero_wrapper_row {
   @apply flex flex-col px-1 items-center justify-center lg:flex-row;
 }
-
 .hero_description {
   @apply text-center mx-4 md:mx-0 mb-8 lg:mr-20 2xl:mr-60 lg:py-8 text-sm font-inter font-light lg:text-base 2xl:text-lg leading-relaxed lg:text-left text-gray-900;
 }
@@ -138,19 +137,8 @@
 .api-desc {
   @apply text-sm h-20 font-inter text-gray-600 text-center mx-4;
 }
-
 .our_api_title {
   @apply text-center font-inter mx-4 pt-10 text-gray-700 text-3xl sm:text-4xl lg:text-5xl font-extrabold lg:pt-20 lg:pb-1;
 }
 
-.upcoming_api_title {
-  @apply text-center py-10 font-inter mx-4 text-gray-700 text-3xl sm:text-4xl lg:text-5xl font-extrabold lg:pt-20 lg:pb-20;
-}
-
-.processing_description {
-  @apply text-sm text-center font-inter font-light text-gray-600 mt-4 mx-5;
-}
-.image_processing_title {
-  @apply text-center text-primary text-3xl lg:text-4xl mt-5 mx-5 font-bold;
-}
 </style>
