@@ -87,49 +87,52 @@
     </div>
 
     <div class="bg-[url('/images/upcomingbg.png')]">
-    <div class="bg-white backdrop-blur-sm bg-opacity-50">
-    
-      <div class="container py-10 mx-auto">
-        <h1 data-aos="fade-up" class="upcoming_api_title">Our Upcoming APIs</h1>
+      <div class="bg-white backdrop-blur-sm bg-opacity-50">
+        <div class="container py-10 mx-auto">
+          <h1 data-aos="fade-up" class="upcoming_api_title">
+            Our Upcoming APIs
+          </h1>
 
-        <div class="mx-5 bg-gray-100 backdrop-blur-3xl bg-opacity-80 py-1 rounded-2xl mt-12">
-          <div class="upcoming_api_wrapper">
-            <img
-              src="/images/video.svg"
-              class="hidden lg:block w-40 md:ml-5 md:w-72 xl:ml-0"
-              alt="video processing"
-            />
-            <div class="flex flex-col">
+          <div
+            class="mx-5 bg-gray-100 backdrop-blur-3xl bg-opacity-80 py-1 rounded-2xl mt-12"
+          >
+            <div class="upcoming_api_wrapper">
               <img
                 src="/images/video.svg"
-                class="w-40 mx-auto lg:hidden"
+                class="hidden lg:block w-40 md:ml-5 md:w-72 xl:ml-0"
                 alt="video processing"
               />
-              <h1
-                class="text-3xl text-center lg:text-4xl mx-5 font-bold text-primary"
-              >
-                Video Processing API
-              </h1>
-              <p class="video_processing_description">
-                Video processing api allow you to easily encode/ decode videos
-                in many different format like MP4, 3GP , MKV, FLV, Webm and HLS.
-                Our services are capable of transcoding video faster at cheaper
-                rate.
-              </p>
-              <div class="video_feature_wrapper">
-                <h1 class="video-api-feature">1080P</h1>
-                <h1 class="video-api-feature">720P</h1>
-                <h1 class="video-api-feature">480P</h1>
-                <h1 class="video-api-feature">Audio</h1>
-                <h1 class="video-api-feature">HLS</h1>
-                <h1 class="video-api-feature">DASH</h1>
-                <h1 class="video-api-feature">Watermark</h1>
+              <div class="flex flex-col">
+                <img
+                  src="/images/video.svg"
+                  class="w-40 mx-auto lg:hidden"
+                  alt="video processing"
+                />
+                <h1
+                  class="text-3xl text-center lg:text-4xl mx-5 font-bold text-primary"
+                >
+                  Video Processing API
+                </h1>
+                <p class="video_processing_description">
+                  Video processing api allow you to easily encode/ decode videos
+                  in many different format like MP4, 3GP , MKV, FLV, Webm and
+                  HLS. Our services are capable of transcoding video faster at
+                  cheaper rate.
+                </p>
+                <div class="video_feature_wrapper">
+                  <h1 class="video-api-feature">1080P</h1>
+                  <h1 class="video-api-feature">720P</h1>
+                  <h1 class="video-api-feature">480P</h1>
+                  <h1 class="video-api-feature">Audio</h1>
+                  <h1 class="video-api-feature">HLS</h1>
+                  <h1 class="video-api-feature">DASH</h1>
+                  <h1 class="video-api-feature">Watermark</h1>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
 </template>
