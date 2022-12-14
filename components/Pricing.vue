@@ -60,7 +60,7 @@ export default {
   @apply text-gray-700 text-center mx-4 text-3xl sm:text-4xl lg:text-5xl lg:pt-20 font-inter font-bold;
 }
 .pricing_box_wrapper{
-  @apply flex flex-col mx-5 gap-y-10 items-center md:flex-row md:justify-center md:gap-14 lg:gap-20 mt-10 mb-24 py-10;
+  @apply flex flex-wrap mx-5 gap-y-10 items-center lg:flex-row md:justify-center md:gap-14 lg:gap-20 mt-10 mb-24 py-10;
 }
 .pricing_basic{
   @apply shadow-md rounded-2xl w-80 bg-gray-100 p-4;
