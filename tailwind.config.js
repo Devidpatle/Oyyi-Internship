@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+const colors = require('tailwindcss/colors')
+
+
 module.exports = {
   content: [
     "./components/**/*.{js,vue,ts}",
@@ -13,6 +16,9 @@ module.exports = {
         montserrat: ["Montserrat"],
         poppins: ["Poppins"],
         inter: ["Inter"],
+      },
+      colors: {
+        'primary':'#1B998B',
       },
     },
   },

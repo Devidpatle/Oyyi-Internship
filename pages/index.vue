@@ -1,10 +1,10 @@
 <template>
 
-  <main class="bg-zinc-900 font-inter">
+  <main class="bg-gray-50 font-inter">
     <Hero/>
     <Api/>
     <WhyUs/>
-    <UpcomingApi/>
+    <!-- <UpcomingApi/> -->
     <OurCustomer/>
     <Pricing/>
 <!--    <Faq/>-->

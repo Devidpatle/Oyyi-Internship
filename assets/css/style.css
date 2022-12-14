@@ -11,9 +11,8 @@
 }
 
 
-
 .api {
-  @apply bg-green-200 bg-opacity-5 pt-7 rounded-2xl shadow-sm w-full h-80 sm:w-80 xl:h-80;
+  @apply bg-gray-100 bg-opacity-50 flex flex-col justify-center rounded-3xl pt-7 pb-7 w-full h-auto sm:w-80 xl:h-96;
 }
 
 
@@ -31,6 +30,3 @@
 }
 
 
-section {
-  padding: 30px 0;
-}

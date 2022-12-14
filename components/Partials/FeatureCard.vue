@@ -1,8 +1,14 @@
 <template>
-  <div class="w-72 xl:w-80 my-5">
-    <img src="https://img.icons8.com/material-outlined/50/E5E7EB/installing-updates.png" class="mx-auto" :alt="title+'_image'"/>
+  <div class="w-72 h-80 flex flex-col justify-center xl:w-80 my-5 py-5 px-3 bg-gray-100 bg-opacity-60 rounded-3xl">
+    <img src="https://img.icons8.com/ios/50/374151/happy-cloud.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Simple to Use'"/>
+    <img src="https://img.icons8.com/ios/50/374151/expensive-2--v1.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Cost Effective'"/>
+    <img src="https://img.icons8.com/ios/50/374151/keyhole-shield.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Secure'"/>
+    <img src="https://img.icons8.com/ios/50/374151/quick-mode-on.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Fast'"/>
+    <img src="https://img.icons8.com/ios/50/374151/api-settings.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Large API Sets'"/>
+    <img src="https://img.icons8.com/ios/50/374151/code.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'SDKs'"/>
+
     <h1 class="text-center text-2xl font-semibold py-4">{{title}}</h1>
-    <p class="text-sm text-gray-400 text-justify mx-4">
+    <p class="text-sm text-gray-600 text-center mt-4 mx-4">
       {{description}}
     </p>
   </div>
