@@ -1,45 +1,62 @@
 <template>
-  <section id="pricing" class="bg-white py-12">
-    <div class="container mx-auto">
-      <div data-aos="fade-up" class="pricing_title">Affordable . Simple . Transparent</div>
-      <div class="pricing_box_wrapper">
-        <div class="pricing_basic">
-          <p class="text-gray-600 text-xl font-medium mb-4">Basic</p>
-          <p class="text-gray-600 text-3xl font-bold">FREE</p>
-          <p class="text-gray-500 text-xs mt-4">Made for personal project or small website</p>
-          <ul class="text-sm text-gray-700 w-full mt-6 mb-6">
-            <FeatureItem available="yes" feature="Api limits of 10 requests/minute"/>
-            <FeatureItem available="yes" feature="500MB of Free Storage"/>
-            <FeatureItem available="yes" feature="1 Free Static Website Hosting"/>
-            <FeatureItem available="yes" feature="1 Queue job worker"/>
-            <FeatureItem available="no" feature="Custom Domain name for file serving"/>
-          </ul>
-          <a type="button" href="https://dashboard.oyyi.xyz/" target="_blank" class="pricing_button">Get Started</a>
+  <section id="pricing" class="section">
+    <div class="row justify-content-center text-center">
+      <div class="col-sm-8 col-md-8"><h2 class="h1 mb-4">Simple pricing for you</h2>
+        <p class="lead">We are dedicated to providing you with the best experience possible.</p></div>
+    </div>
+    <div class="container">
+      <div class="row mt-5 mt-sm-6">
+        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0" id="pricing_free">
+          <div class="card border-gray-300 text-center py-3">
+            <div class="card-header bg-white p-3"><h3 class="text-primary mb-4">Free</h3><span class="d-block"><span
+                class="display-1 text-dark fw-bold"><span class="align-top font-medium">$</span>0 </span><span
+                class="d-block text-gray font-small">/ month</span></span></div>
+            <div class="card-body">
+              <ul class="list-unstyled mb-4">
+                <li class="list-item pb-3">Api limits of <strong>10</strong> requests/minute</li>
+                <li class="list-item pb-3">Storage space: <strong>500MB</strong></li>
+                <li class="list-item pb-3"><strong>1</strong> Free Static Website Hosting</li>
+                <li class="list-item pb-3"><strong>1</strong> Queue job worker</li>
+                <li class="list-item pb-3"><strong>Custom Domain </strong>for file serving</li>
+              </ul>
+              <div class="d-grid">
+                <button type="button" class="btn btn-primary">Start Free</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="pricing_enterprise">
-          <p class="text-gray-600 text-xl font-medium mb-4">Enterprise</p>
-          <p class="text-gray-600 text-3xl font-bold">$20<span class="text-gray-400 text-sm"> / month </span></p>
-          <p class="text-gray-500 text-xs mt-4">
-            Best For Medium Traffic website.
-          </p>
-          <ul class="text-sm text-gray-700 w-full mt-6 mb-6">
-            <FeatureItem available="yes" feature="Api limits of 40 requests/minute"/>
-            <FeatureItem available="yes" feature="5000MB of Free Storage"/>
-            <FeatureItem available="yes" feature="3 Free Static Website Hosting"/>
-            <FeatureItem available="yes" feature="4 Queue job worker"/>
-            <FeatureItem available="yes" feature="Custom Domain name for file serving"/>
-          </ul>
-          <a href="https://dashboard.oyyi.xyz/plan" type="button" class="pricing_button">Choose plan</a>
+        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0" id="pricing_startup">
+          <div class="card border-gray-300 text-center py-3">
+            <div class="card-header bg-white p-3"><h3 class="text-primary mb-4">Startup</h3><span class="d-block"><span
+                class="display-1 text-dark fw-bold"><span class="align-top font-medium">$</span>20</span><span
+                class="d-block text-gray font-small">/ month</span></span></div>
+            <div class="card-body">
+              <ul class="list-unstyled mb-4">
+                <li class="list-item pb-3">Api limits of <strong>40</strong> requests/minute</li>
+                <li class="list-item pb-3">Storage space: <strong>5 GB</strong></li>
+                <li class="list-item pb-3"><strong>3</strong> Free Static Website Hosting</li>
+                <li class="list-item pb-3"><strong>4</strong> Queue job worker</li>
+                <li class="list-item pb-3"><strong>Custom Domain </strong>for file serving</li>
+              </ul>
+              <div class="d-grid">
+                <button type="button" class="btn btn-primary">Activate it</button>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="pricing_custom">
-          <p class="text-gray-600 text-xl font-medium mb-4">Required more resources?</p>
-          <p class="text-gray-600 text-3xl font-bold">Custom</p>
-          <ul class="text-sm text-gray-500 w-full mt-6 mb-6">
-           <li>Write to us about your requirement and our team will get back to you.</li>
-           <li>&nbsp;</li>
-           <li>&nbsp;</li>
-          </ul>
-          <a type="button" href="mailto:apppublisher.20@gmail.com" target="_blank" class="pricing_button">Contact Us</a>
+        <div class="col-12 col-md-6 col-lg-4 mb-5 mb-lg-0" id="pricing_custom">
+          <div class="card border-gray-300 text-center py-3 h-100">
+            <div class="card-header bg-white p-3"><h3 class="text-primary mb-4">Custom</h3>
+            </div>
+            <div class="card-body">
+              <ul class="list-unstyled mb-4">
+                <li class="list-item pb-3">Write to us about your requirement and our team will get back to you.</li>
+              </ul>
+              <div class="d-grid">
+                <button type="button" class="btn btn-dark">Contact Us</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -52,23 +69,3 @@ export default {
   components: {FeatureItem}
 }
 </script>
-<style scoped>
-.pricing_button{
-  @apply py-2 px-4 flex justify-center font-semibold bg-primary text-white w-full transition ease-in duration-200 text-center shadow-md rounded-lg;
-}
-.pricing_title{
-  @apply text-gray-700 text-center mx-4 text-3xl sm:text-4xl lg:text-5xl lg:pt-20 font-inter font-bold;
-}
-.pricing_box_wrapper{
-  @apply flex flex-wrap mx-5 gap-y-10 items-center lg:flex-row md:justify-center md:gap-14 lg:gap-20 mt-10 mb-24 py-10;
-}
-.pricing_basic{
-  @apply shadow-md rounded-2xl w-80 bg-gray-100 p-4;
-}
-.pricing_enterprise{
-  @apply shadow-lg border-2 border-primary border-opacity-40 rounded-2xl w-80 bg-gray-100 p-4;
-}
-.pricing_custom{
-  @apply shadow-md rounded-2xl w-80 bg-gray-100 p-4;
-}
-</style>

@@ -1,26 +1,41 @@
 <template>
-  <header class="py-3 px-3 pt-4 bg-zinc-900  text-gray-200">
-    <div class="container flex justify-between items-center mx-auto px-8 w-full">
-      <div class="text-3xl lg:text-4xl font-montserrat font-bold">Oyyi</div>
-      <div class="hidden lg:flex space-x-9 items-center font-inter text-base font-medium">
-        <a href="#apis" class="hover:text-teal-500">Our APIs</a>
-        <a href="/#feature" class="hover:text-teal-500">Features</a>
-        <a href="https://v1-docs.oyyi.xyz/" class="hover:text-teal-500">Documentation</a>
-        <a href="/#pricing" class="hover:text-teal-500">Pricing</a>
-        <a href="/#dashboard" class="hover:text-teal-500">Dashboard</a>
-        <a href="https://dashboard.oyyi.xyz" class="px-4 py-3 bg-primary text-zinc-900 rounded-lg hover:bg-teal-500">Sign Up</a
-        >
-      </div>
-        <button class="outline-none mobile-menu-button hidden">
-          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="34" height="34" viewBox="0 0 30 30" style="fill: #fff"><path d="M 3 7 A 1.0001 1.0001 0 1 0 3 9 L 27 9 A 1.0001 1.0001 0 1 0 27 7 L 3 7 z M 3 14 A 1.0001 1.0001 0 1 0 3 16 L 27 16 A 1.0001 1.0001 0 1 0 27 14 L 3 14 z M 3 21 A 1.0001 1.0001 0 1 0 3 23 L 27 23 A 1.0001 1.0001 0 1 0 27 21 L 3 21 z"></path>
-          </svg>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="navbar-brand text-primary fw-bolder display-6" href="/">Oyyi</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#apis">Our APIs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#whyus">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://docs.oyyi.xyz/">Documentation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://dashboard.oyyi.xyz">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-primary" href="https://dashboard.oyyi.xyz">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary text-white rounded-0" href="https://dashboard.oyyi.xyz/register">Sign Up</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="alert bg-black text-center rounded-0 text-white mb-0">
+      Starting from 1st December. Token will be required for Api. ITs Free.
     </div>
   </header>
 </template>
-<script>
-export default {
-  name: "header",
 
-}
-</script>

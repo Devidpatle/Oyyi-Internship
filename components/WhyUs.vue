@@ -1,37 +1,17 @@
 <template>
-  <section id="feature" class="bg-gray-50 py-12">
-    <div class="container mx-auto">
-      <h1 data-aos="fade-up" class="feature_title">Why <span class="text-primary">Choose Oyyi</span></h1>
-      <div class="feature_wrapper">
-        <FeatureCard title="Simple to Use" description=" Our API are simple to use with any programming language with network Library."/>
-        <FeatureCard title="Cost Effective" description="Free plan of the API service is suitable for small projects and cheaper than any API provider."/>
-        <FeatureCard title="Secure" description=" Our tech team has spent sufficient time designing secure API with HTTPS, TLS enabled."/>
-        <FeatureCard title="Fast" description="Our Web Servers are configured to deliver response within seconds for large through puts of your services."/>
-        <FeatureCard title="Large API Sets" description=" We have covered all the major API that are needed for any web services. 20+ APIs and New API adding soon."/>
-        <FeatureCard title="SDKs" description=" SDK for almost every popular programming language like Python, PHP, Javascript. (Coming Soon)"/>
+  <section class="section bg-primary" id="whyus">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-sm-8 col-md-8 text-white"><h2 class="h1 mb-4">Why Oyyi ?</h2>
+          <p class="lead">We have apis to meet all your development needs.</p></div>
       </div>
-      <div class="py-10 mx-5 rounded-2xl" id="dashboard">
-        <h1 class="block xl:hidden pb-14 text-center font-bold text-3xl text-gray-700">A Dashboard that is made just for you!</h1>
-        <div class="dashboard_features_row">
-          <div class="flex flex-col">
-            <p class="hidden xl:block text-center font-bold text-3xl text-gray-700">A dashboard that is made just for you!</p>
-            <div class="dashboard_feature_wrapper">
-              <div class="dashboard_features">
-                <img src="https://img.icons8.com/ios/50/374151/api-settings.png" class="w-7 mx-auto pb-3" alt="manage token"/>
-                <h6>Manage Tokens</h6>
-              </div>
-              <div class="dashboard_features">
-                <img src="https://img.icons8.com/ios/50/374151/data-in-both-directions.png" class="w-7 mx-auto pb-3" alt="track response"/>
-                <h6>Track Response</h6>
-              </div>
-              <div class="dashboard_features">
-                <img src="https://img.icons8.com/ios/50/374151/bar-chart--v1.png" class="w-7 mx-auto pb-3" alt="view stats"/>
-                <h6>View Stats</h6>
-              </div>
-            </div>
-          </div>
-          <img src="/images/dashboard1.png" class="py-4 mx-auto w-2/3 xl:w-3/5" alt="dashboard image"/>
-        </div>
+      <div class="row">
+        <FeatureCard title="Simple to Use" description=" Our API are simple to use with any programming language with network Library." icon="https://img.icons8.com/ios/50/374151/happy-cloud.png"/>
+        <FeatureCard title="Cost Effective" description="Free plan of the API service is suitable for small projects and cheaper than any API provider." icon="https://img.icons8.com/ios/50/374151/expensive-2--v1.png"/>
+        <FeatureCard title="Secure" description=" Our tech team has spent sufficient time designing secure API with HTTPS, TLS enabled." icon="https://img.icons8.com/ios/50/374151/keyhole-shield.png"/>
+        <FeatureCard title="Fast" description="Our Web Servers are configured to deliver response within seconds for large through puts of your services." icon="https://img.icons8.com/ios/50/374151/quick-mode-on.png"/>
+        <FeatureCard title="Large API Sets" description=" We have covered all the major API that are needed for any web services. 20+ APIs and New API adding soon." icon="https://img.icons8.com/ios/50/374151/api-settings.png"/>
+        <FeatureCard title="SDKs" description=" SDK for almost every popular programming language like Python, PHP, Javascript. (Coming Soon)" icon="https://img.icons8.com/ios/50/374151/code.png"/>
       </div>
     </div>
   </section>
@@ -44,23 +24,3 @@ export default {
   components: {FeatureCard}
 }
 </script>
-<style scoped>
-.feature_title {
-  @apply text-center py-5 mx-4 text-gray-700 text-3xl sm:text-4xl lg:text-5xl font-bold lg:pt-20 lg:pb-20;
-}
-
-.dashboard_features {
-  @apply text-sm xl:text-xl text-primary w-20 sm:w-48 py-5 text-center font-semibold rounded-xl;
-}
-
-.dashboard_feature_wrapper {
-  @apply flex flex-wrap items-center justify-center mx-auto gap-x-8 sm:gap-x-1 gap-y-5 xl:pt-10 xl:gap-x-10;
-}
-
-.dashboard_features_row {
-  @apply flex sm:flex-col flex-col-reverse lg:flex-row items-center justify-center gap-x-2 lg:mx-20 2xl:mx-40;
-}
-.feature_wrapper{
-  @apply pt-5 pb-16 container flex flex-wrap items-center justify-center gap-x-10 lg:gap-y-4 xl:px-10 mx-auto text-primary;
-}
-</style>

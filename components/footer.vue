@@ -1,19 +1,19 @@
 <template>
-  <footer class="bg-zinc-900">
-    <div class="container mx-auto">
-      <div class="px-5 py-8 flex flex-col items-center lg:flex-row">
-        <a class="hidden lg:block text-white">
-          <span class="ml-3 text-2xl font-semibold">Oyyi</span>
-        </a>
-        <span class="hidden lg:block text-gray-200 text-3xl ml-4">|</span>
-        <img src="https://img.icons8.com/material/28/FFFFFF/address--v2.png" class="hidden lg:block ml-4" alt="address locator"/>
-        <h1 class="hidden lg:block text-gray-200 text-xs ml-2">Kolkata, West Bengal</h1>
-        <h1 class="text-gray-200 text-sm pb-5 lg:hidden">Kolkata, West Bengal</h1>
-        <span class="inline-flex lg:ml-auto mt-4 justify-center gap-8">
-            <a href="mailto:apppublisher.20@gmail.com"><img src="https://img.icons8.com/material/24/FFFFFF/mail.png" alt="mail us"/></a>
-            <img src="https://img.icons8.com/material/24/FFFFFF/facebook--v1.png" alt="facebook logo"/>
-            <img src="https://img.icons8.com/material/24/FFFFFF/twitter--v2.png" alt="twitter_icon"/>
-          </span>
+  <footer class="footer section section-sm bg-secondary text-white">
+    <div class="container">
+      <div class="row align-items-md-center">
+        <div class="col-md-4 mb-4 mb-md-0">
+          <div class="d-flex align-items-center"><a class="footer-brand brand-sm me-3" href="#"><img
+              src="#" alt="oyyi logo"> </a>
+            <p class="small mb-0">© Oyyi Cloud {{new Date().getFullYear()}}.<br>All rights reserved.</p></div>
+        </div>
+        <div class="col-sm-6 col-md-4 ms-auto mb-4 mb-sm-0">
+          <ul class="list-inline list-group-flush list-group-borderless text-md-center mb-0">
+            <li class="list-inline-item px-0 px-sm-2"><a class="text-muted" href="#">About</a></li>
+            <li class="list-inline-item px-0 px-sm-2"><a class="text-muted" href="#">Terms</a></li>
+            <li class="list-inline-item px-0 px-sm-2"><a class="text-muted" href="#">Contact</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </footer>

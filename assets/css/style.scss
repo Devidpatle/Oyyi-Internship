@@ -1,0 +1,24 @@
+$primary: #0f7173;
+@import "../scss/pixel";
+
+
+#bg-video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  z-index: -99;
+}
+.hero-area{
+  clip-path: ellipse(80% 85% at 48% 16%);
+}
+.dark_overlay{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: -90;
+}

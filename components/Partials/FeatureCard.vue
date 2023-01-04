@@ -1,29 +1,28 @@
 <template>
-  <div class="w-72 h-80 flex flex-col justify-center xl:w-80 my-5 py-5 px-3 bg-gray-100 bg-opacity-60 rounded-3xl">
-    <img src="https://img.icons8.com/ios/50/374151/happy-cloud.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Simple to Use'"/>
-    <img src="https://img.icons8.com/ios/50/374151/expensive-2--v1.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Cost Effective'"/>
-    <img src="https://img.icons8.com/ios/50/374151/keyhole-shield.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Secure'"/>
-    <img src="https://img.icons8.com/ios/50/374151/quick-mode-on.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Fast'"/>
-    <img src="https://img.icons8.com/ios/50/374151/api-settings.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'Large API Sets'"/>
-    <img src="https://img.icons8.com/ios/50/374151/code.png" class="mx-auto" :alt="title+'_image'" v-if="title === 'SDKs'"/>
-
-    <h1 class="text-center text-2xl font-semibold py-4">{{title}}</h1>
-    <p class="text-sm text-gray-600 text-center mt-4 mx-4">
-      {{description}}
-    </p>
+  <div class="col-sm-12 col-md-12 col-lg-6">
+    <div class="card border-0 mb-4">
+      <div class="card-body">
+        <div class="d-flex p-3">
+          <div>
+            <div class="icon icon-primary"><img :src="icon" :alt="title"/></div>
+          </div>
+          <div class="ps-4"><h3 class="h5 icon-box-title">{{ title }}</h3>
+            <p class="icon-box-text">{{ description }}</p>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
   name: "FeatureCard",
-  props:{
+  props: {
     title: String,
-    description: String
+    description: String,
+    icon: String
   }
 }
 </script>
 
-<style scoped>
-
-</style>
