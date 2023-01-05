@@ -1,5 +1,5 @@
 <template>
-  <footer class="footer section section-sm bg-secondary text-white">
+  <footer class="footer p-0 section section-sm bg-secondary text-white">
     <div class="container">
       <div class="row align-items-md-center">
         <div class="col-md-4 mb-4 mb-md-0">
@@ -15,7 +15,10 @@
       </div>
     </div>
     <hr>
-    <div class="text-center">
-      <p class="small mb-0">© Oyyi Cloud {{new Date().getFullYear()}}.All rights reserved.</p></div>
+    <div class="text-center my-4">
+      <p class="small mb-0">© Oyyi Cloud {{ new Date().getFullYear() }}.All rights reserved.</p></div>
+    <div class="text-center text-dark bg-light-subtle py-3">
+      Made with <span class="text-danger">&hearts;</span> by <a href="https://www.meefic.com">Meefic</a> in India.
+    </div>
   </footer>
 </template>
