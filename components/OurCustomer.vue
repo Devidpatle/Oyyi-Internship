@@ -22,11 +22,11 @@
             </li>
             <li class="mx-xl-4 mx-3 mb-5">
               <a href="https://suip.me" target="_blank"><img class="img-fluid image-md"
-                                                             src="/images/logo-suip%20(1).png" alt="suip logo"></a>
+                                                             src="/images/logosuipme.png" alt="suip logo"></a>
             </li>
             <li class="mx-xl-4 mx-3 mb-5">
               <a href="https://meefic.com" target="_blank"><img class="img-fluid image-md"
-                                                                src="/images/meeefic logo.png" alt="meefic logo"></a>
+                                                                src="/images/meeefic-logo.png" alt="meefic logo"></a>
             </li>
           </ul>
         </div>
