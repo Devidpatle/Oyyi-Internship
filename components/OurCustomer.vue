@@ -16,9 +16,7 @@
                                                               alt="lwook logo"></a>
             </li>
             <li class="mx-xl-4 mx-3 mb-5">
-              <a href="https://www.rajeevclasses.com" target="_blank"><img class="img-fluid image-md"
-                                                                           src="/images/rclogo.png"
-                                                                           alt="rclogo logo"></a>
+              <a href="https://www.rajeevclasses.com" target="_blank"><img class="img-fluid image-md" src="/images/rclogo.png" alt="rclogo logo"></a>
             </li>
             <li class="mx-xl-4 mx-3 mb-5">
               <a href="https://suip.me" target="_blank"><img class="img-fluid image-md"
