@@ -20,7 +20,7 @@
                 <li class="list-item pb-3"><strong>Custom Domain </strong>for file serving</li>
               </ul>
               <div class="d-grid">
-                <button type="button" class="btn btn-primary">Start Free</button>
+                <a href="https://dashboard.oyyi.xyz" type="button" class="btn btn-primary">Start Free</a>
               </div>
             </div>
           </div>
@@ -39,7 +39,7 @@
                 <li class="list-item pb-3"><strong>Custom Domain </strong>for file serving</li>
               </ul>
               <div class="d-grid">
-                <button type="button" class="btn btn-primary">Activate it</button>
+                <a href="https://dashboard.oyyi.xyz" type="button" class="btn btn-primary">Activate it</a>
               </div>
             </div>
           </div>

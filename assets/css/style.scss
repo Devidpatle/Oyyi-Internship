@@ -1,6 +1,6 @@
-$primary: #0f7173;
+@import "../scss/custom/variables";
 @import "../scss/pixel";
-
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css";
 
 #bg-video {
   position: absolute;
@@ -10,15 +10,17 @@ $primary: #0f7173;
   left: 0;
   z-index: -99;
 }
-.hero-area{
+
+.hero-area {
   clip-path: ellipse(80% 85% at 48% 16%);
 }
-.dark_overlay{
+
+.dark_overlay {
   position: absolute;
   right: 0;
   bottom: 0;
   top: 0;
   left: 0;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   z-index: -90;
 }

@@ -1,52 +1,91 @@
 <template>
   <main>
-    <section class="section d-flex justify-content-center align-items-center" style="min-height: 80vh;">
+    <section class="section d-flex justify-content-center bg-danger text-white align-items-center"
+             style="min-height: 80vh;">
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
-            <h1 id="main" class="display-2 text-capitalize">Media Processing <br> on the Fly</h1>
-            <p class="lead">Our multiple APIs are made to meet your daily need as developer and implement
-              without getting worried about coding it yourself.Apis made for every developer need starting from media
-              conversion to Face Detection and sentiment Analysis.</p>
-          </div>
-          <div class="col-md-6">
-            <img src="/images/image.svg" alt="media api hero" class="img-fluid">
+          <div class="col-md-8 offset-2 text-center">
+            <h1 id="main" class="display-2 fw-bolder text-capitalize mb-3">Machine Learning Task Made Easy with simple
+              api</h1>
+            <p class="lead">with machine learning api you can do every ml task with just a simple http request and with
+              doing any computation</p>
+            <AvailableClient/>
+            <a href="https://docs.oyyi.xyz/mlapi/object-detection-api.html"
+               class="btn btn-dark shadow-none my-3 py-3 px-5 btn-lg"> Read Documentation</a>&nbsp;&nbsp;
           </div>
         </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row justify-content-center text-center">
+          <div class="col-sm-8 col-md-8 "><h2 class="display-2 mb-4">How it works ?</h2>
+            <p class="lead">Doing ml task is much easier than ever before.</p></div>
+        </div>
+        <img src="/images/mloyyi.png" alt="media api processing">
       </div>
     </section>
     <section class="section bg-light-subtle">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 col-lg-4 text-center">
-            <div class="card border-gray-300 shadow-lg mb-4 h-100">
-              <div class="card-body py-5"><img src="#" class="img-fluid image-sm" alt="Image Processing api">
-                <h2 class="fw-bolder h4 py-2">Image Processing Api</h2>
+          <div class="col-md-6 col-lg-4 my-3 text-center">
+            <div class="card shadow-lg h-100" style="border-color: #0d6efd;">
+              <div class="card-header" style="height: 100px;background-color: #0d6efd">
+              </div>
+              <div class="card-body py-5">
+                <h2 class="fw-bolder display-3 py-2">Object Detection Api</h2>
                 <p class="card-text py-4 mb-0">
-                  Image Conversion through API or on the fly with web request.
-                  Almost all type of image manipulation like crop, resize, blur,
-                  sharp and many more can be done with just one request.</p>
-                <a href="#" class="#">Read Docs</a></div>
+                  Object Detection is part of Machine Learning , in which we use different algorithm to detect object in
+                  Image, Or Video files. Our algorithm can detect around 10K+ different objects.</p>
+                <a href="https://docs.oyyi.xyz/mlapi/object-detection-api.html" class="#">Read Docs</a></div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 text-center">
-            <div class="card border-gray-300 shadow-lg mb-4 h-100">
-              <div class="card-body py-5"><img src="#" class="img-fluid image-sm" alt="Image Processing api">
-                <h2 class="fw-bolder h4 py-2"> Thumbnail Generator Api</h2>
+          <div class="col-md-6 col-lg-4 my-3 text-center">
+            <div class="card shadow-lg h-100" style="border-color: #2CA58D;">
+              <div class="card-header" style="height: 100px;background-color: #2CA58D;">
+              </div>
+              <div class="card-body py-5">
+                <h2 class="fw-bolder display-3 py-2"> Text Sentiment analysis Api</h2>
                 <p class="card-text py-4 mb-0">
-                  Generate Thumbnail for Video file, PDF File and Image File with
-                  simple API Request. No Restriction or Charges.</p>
-                <a href="#" class="#">Read Docs</a></div>
+                  Text Sentiment allow you to predict the sentiment of text either data is POSITIVE , NEGATIVE ,
+                  NEUTRAL. You can use this result to predict user reviews and many other task on you server side.</p>
+                <a href="https://docs.oyyi.xyz/mlapi/text-sentiment-api.html" class="#">Read Docs</a></div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 text-center">
-            <div class="card border-gray-300 shadow-lg mb-4 h-100">
-              <div class="card-body py-5"><img src="#" class="img-fluid image-sm" alt="Image Processing api">
-                <h2 class="fw-bolder h4 py-2">Media Optimization Api</h2>
+          <div class="col-md-6 col-lg-4 my-3 text-center">
+            <div class="card border-secondary shadow-lg h-100">
+              <div class="card-header bg-secondary" style="height: 100px;">
+              </div>
+              <div class="card-body py-5">
+                <h2 class="fw-bolder display-3 py-2">Language Processing Api</h2>
                 <p class="card-text py-4 mb-0">
-                  Compress image or pdf with lossless image or pdf compression
-                  algorithm without losing quality.</p>
-                <a href="#" class="#">Read Docs</a></div>
+                  Language Processing api is also Natural Language Processing Api allow you to extract meaningful part
+                  of human language by the means of NLP algorithm.</p>
+                <a href="https://docs.oyyi.xyz/mlapi/language-processing-api.html" class="#">Read Docs</a></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 my-3 text-center">
+            <div class="card border-danger shadow-lg h-100">
+              <div class="card-header bg-danger" style="height: 100px;">
+              </div>
+              <div class="card-body py-5">
+                <h2 class="fw-bolder display-3 py-2">Facial Sentiment Api</h2>
+                <p class="card-text py-4 mb-0">
+                  Face Sentiment api allow you to detect sentiment of person within the image. Along with sentiment
+                  other characteristics like Age , Face Coordinate , Gender , Emotion , Race</p>
+                <a href="https://docs.oyyi.xyz/mlapi/facial-sentiment-api.html" class="#">Read Docs</a></div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 my-3 text-center">
+            <div class="card border-warning shadow-lg h-100">
+              <div class="card-header bg-warning" style="height: 100px;">
+              </div>
+              <div class="card-body py-5">
+                <h2 class="fw-bolder display-3 py-2">Text Recognition Api</h2>
+                <p class="card-text py-4 mb-0">
+                  Text Recognition api allow you to extract text from image , video or any visual documents. Our Api are
+                  trained to detect more than 100 different languages and many scripts.</p>
+                <a href="https://docs.oyyi.xyz/mlapi/text-recognition-api.html" class="#">Read Docs</a></div>
             </div>
           </div>
         </div>
@@ -54,3 +93,10 @@
     </section>
   </main>
 </template>
+<script>
+import AvailableClient from "../components/Partials/AvailableClient";
+
+export default {
+  components: {AvailableClient}
+}
+</script>

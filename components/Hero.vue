@@ -4,16 +4,14 @@
       <div class="dark_overlay"></div>
       <div class="row">
         <div class="col-lg-8 col-md-12 mx-auto text-center">
-          <h1 class="display-3 my-3 ">Are You a developer ?</h1>
-          <h1 class="display-1 fw-bolder my-3">APIs Made Out Of Perfection!</h1>
+          <h1 class="display-1 fw-bolder my-3">Cloud Processing Made Out Of Perfection!</h1>
           <p class="lead"> Our multiple APIs are made to meet your daily need as developer
             and implement without getting worried about coding it
             yourself.</p>
           <div class="mt-5 mx-auto d-flex">
-            <a href="#" class="btn btn-secondary shadow-none border-0 rounded-0 flex-grow-1 py-3 px-5 btn-lg row-gap-2">Get
+            <a href="https://dashboard.oyyi.xyz" class="btn btn-secondary shadow-none border-0 rounded-0 flex-grow-1 py-3 px-5 btn-lg row-gap-2">Get
               Started</a>&nbsp;&nbsp;
-            <a href="#"
-               class="btn bg-white shadow-none border-0 btn-outline-secondary rounded-0  flex-grow-1 py-3 px-5 btn-lg row-gap-2">Explore</a>
+            <a href="#apis" class="btn bg-white shadow-none border-0 btn-outline-secondary rounded-0  flex-grow-1 py-3 px-5 btn-lg row-gap-2">Explore</a>
           </div>
         </div>
 
