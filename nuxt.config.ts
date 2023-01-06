@@ -14,8 +14,12 @@ export default defineNuxtConfig({
         }
     },
     modules: ['@nuxtjs/robots'],
-    plugins: [{src: "@/plugins/aos", ssr: false, mode: "client"}],
+    plugins: [
+        {src: "@/plugins/aos", ssr: false, mode: "client"},
+        {src: "@/plugins/gtag", ssr: false, mode: "client"},
+    ],
     css: [
         '~/assets/css/style.scss'
     ]
+
 })
