@@ -1,4 +1,6 @@
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
+// @ts-ignore
+
 export default defineNuxtConfig({
     app: {
         head: {
@@ -15,11 +17,9 @@ export default defineNuxtConfig({
     },
     modules: ['@nuxtjs/robots'],
     plugins: [
-        {src: "@/plugins/aos", ssr: false, mode: "client"},
-        {src: "@/plugins/gtag", ssr: false, mode: "client"},
+        {src: "@/plugins/aos", ssr: false, mode: "client"}
     ],
     css: [
         '~/assets/css/style.scss'
-    ]
-
+    ],
 })
