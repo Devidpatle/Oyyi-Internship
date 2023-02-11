@@ -42,10 +42,10 @@ jobs:
           source: "docker-compose.yml"
           target: "/var/www/oyyi/frontend/"
           overwrite: true
-      - name: Run command docker compose
+      - name: Run command docker compose over ssh
         uses: fifsky/ssh-action@master
         with:
-          command: cd /var/www/oyyi/frontend && chown root:root docker-compose.yml && docker-compose up -d
+          command: cd /var/www/oyyi/frontend && chown root:root docker-compose.yml && docker-compose down && docker-compose up -d
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSHKEY}}
