@@ -1,4 +1,4 @@
-name: Build Docker Image
+name: Build Docker Image and Push
 on:
   push:
     branches: [ "main" ]
@@ -41,10 +41,11 @@ jobs:
           key: ${{ secrets.SSHKEY}}
           source: "docker-compose.yml"
           target: "/var/www/oyyi/frontend/"
+          overwrite: true
       - name: Run command docker compose
         uses: fifsky/ssh-action@master
         with:
-          command: cd /var/www/oyyi/frontend && docker-compose up
+          command: cd /var/www/oyyi/frontend && chown root:root docker-compose.yml && docker-compose up
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USERNAME }}
           key: ${{ secrets.SSHKEY}}
