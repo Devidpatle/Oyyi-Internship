@@ -45,9 +45,9 @@ jobs:
       - name: Run command docker compose over ssh
         uses: fifsky/ssh-action@master
         with:
-          command: cd /var/www/oyyi/frontend |
+          command: cd /var/www/oyyi/frontend 
             && docker pull ${{ secrets.REGISTRY }}/oyyi/oyyi-frontend
-            && chown root:root docker-compose.yml |
+            && chown root:root docker-compose.yml 
             && docker-compose down && docker-compose up -d
           host: ${{ secrets.HOST }}
           user: ${{ secrets.USERNAME }}
