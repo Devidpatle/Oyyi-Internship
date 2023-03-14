@@ -1,9 +1,0 @@
-.github
-.husky
-.nuxt
-.editorconfig
-.eslintrc.js
-.prettierignore
-.prettierrc
-node_modules
-package-lock.json

@@ -1,5 +1,10 @@
-Branch
+# Oyyi Website
+1.To start development server use
+```npm
+npm run dev
+```
 
-1. Build Process ![main branch node test](https://github.com/Oyyi-Sass/Oyyi/actions/workflows/build.yml/badge.svg)
-
-2. Dev Test ![Dev branch node test](https://github.com/Oyyi-Sass/Oyyi/actions/workflows/test.yml/badge.svg)
+2.To build for production use
+```npm
+npm run build
+```
