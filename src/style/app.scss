@@ -1,2 +1,12 @@
-@import "bootstrap/scss/bootstrap";
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: "DM Sans", sans-serif;
+
+}

@@ -4,221 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cd52e692-a74c-497f-8264-fe29fb592cce" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.dockerignore" beforeDir="false" />
+    <list default="true" id="f4fb5a00-82f1-4259-afab-9ed82b92ca63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Oyyi.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/custom/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/_components.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/_functions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/_layout.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_accordions.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_alerts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_avatars.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_badge.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_body.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_breadcrumb.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_card.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_carousel.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_close.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_custom-forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_datepicker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_dropdown.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_forms.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_icons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_images.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_input-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_list-group.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_maps.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_modal.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_nav.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_pagination.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_preloader.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_progress.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_shapes.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_steps.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_timelines.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_tooltip.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/components/_type.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/layout/_footer.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/layout/_headroom.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/layout/_navbar.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/layout/_section.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/mixins/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/mixins/_background-variant.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/mixins/_icon.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/mixins/_modals.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/mixins/_popover.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/mixins/_transform.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/mixins/_utilities.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_animations.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_backgrounds.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_floating.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_helper.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_position.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_shadows.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_sizing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_spacing.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_text.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/scss/pixel/utilities/_transform.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Api.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Contact.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Faq.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Hero.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/OurCustomer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Partials/ApiCard.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Partials/AvailableClient.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Partials/FeatureCard.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Partials/FeatureItem.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Pricing.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UpcomingApi.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/WhyUs.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/footer.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/astro.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/astro.config.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/general-api.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/machine-learning-api.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/media-api.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/aos.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plugins/gtag.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/images.txt" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/images.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/readme" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/readme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Api.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Api.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Hero.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Partials/ApiCard.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Partials/ApiCard.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Partials/AvailableClient.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Partials/AvailableClient.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Partials/FeatureCard.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Partials/FeatureCard.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Pricing.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Pricing.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/UpcomingApi.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UpcomingApi.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/WhyUs.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhyUs.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Layout.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Layout.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/machine-learning-api.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/machine-learning-api.astro" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/app.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Vue Single File Component" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="main" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
-  </component>
-  <component name="ProjectId" id="2HU0VETTrvE0ri0akkCZCylWajw" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectId" id="2NEeQ0fiH7Fhh3HOwEsru6gj8x4" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Oyyi/src/pages",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "C:\\Users\\rahul\\AppData\\Local\\JetBrains\\Toolbox\\apps\\WebStorm\\ch-0\\223.8617.44\\plugins\\javascript-impl\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;D:\\Oyyi\\node_modules\\prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Oyyi\src\pages" />
-      <recent name="D:\Oyyi\src\components" />
-      <recent name="D:\Oyyi\public" />
-      <recent name="D:\Oyyi\src\style" />
-      <recent name="D:\Oyyi" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Oyyi\static" />
-      <recent name="D:\Oyyi\assets\css" />
-    </key>
-  </component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="cd52e692-a74c-497f-8264-fe29fb592cce" name="Changes" comment="" />
-      <created>1668324384385</created>
+      <changelist id="f4fb5a00-82f1-4259-afab-9ed82b92ca63" name="Changes" comment="" />
+      <created>1679233650246</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1668324384385</updated>
-      <workItem from="1668324388378" duration="3863000" />
-      <workItem from="1668328322314" duration="3792000" />
-      <workItem from="1668334873777" duration="3305000" />
-      <workItem from="1668347368767" duration="3589000" />
-      <workItem from="1668400174252" duration="17366000" />
-      <workItem from="1668441779466" duration="3451000" />
-      <workItem from="1669213475121" duration="2087000" />
-      <workItem from="1669557557954" duration="58000" />
-      <workItem from="1669800596174" duration="186000" />
-      <workItem from="1669806405659" duration="591000" />
-      <workItem from="1669879990385" duration="65000" />
-      <workItem from="1670311073477" duration="160000" />
-      <workItem from="1670316101160" duration="267000" />
-      <workItem from="1670316388478" duration="90000" />
-      <workItem from="1670441819458" duration="59000" />
-      <workItem from="1670479395285" duration="280000" />
-      <workItem from="1670655471876" duration="1266000" />
-      <workItem from="1672234050632" duration="8413000" />
-      <workItem from="1672814112954" duration="11644000" />
-      <workItem from="1672840724739" duration="10905000" />
-      <workItem from="1672900900250" duration="10113000" />
-      <workItem from="1672926526421" duration="5878000" />
-      <workItem from="1672988913145" duration="2605000" />
-      <workItem from="1673101568088" duration="413000" />
-      <workItem from="1676031501264" duration="3083000" />
-      <workItem from="1676035777365" duration="1000" />
-      <workItem from="1676039202652" duration="2863000" />
-      <workItem from="1676049535711" duration="268000" />
-      <workItem from="1676092734265" duration="625000" />
-      <workItem from="1676093442525" duration="13682000" />
-      <workItem from="1678786314046" duration="641000" />
-      <workItem from="1678792053129" duration="6887000" />
+      <updated>1679233650246</updated>
+      <workItem from="1679233651507" duration="1239000" />
+      <workItem from="1679235670823" duration="297000" />
+      <workItem from="1679236156519" duration="176000" />
+      <workItem from="1679236359707" duration="2985000" />
+      <workItem from="1679246420417" duration="5212000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>
