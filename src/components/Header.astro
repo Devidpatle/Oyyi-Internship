@@ -1,3 +1,6 @@
+---
+import Logo from "../components/Logo.astro";
+---
 <div class="navbar dark:bg-black bg-white py-4 lg:px-36">
   <div class="navbar-start">
     <div class="dropdown">
@@ -5,24 +8,26 @@
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
       <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-        <li><a>APIS</a></li>
-        <li><a>Features</a></li>
-        <li><a>Documentation</a></li>
-        <li><a>Dashboard</a></li>
+        <li><a href="#functions">Functions</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="https://docs.oyyi.xyz">Documentation</a></li>
+        <li><a href="https://dashboard.oyyi.xyz">Dashboard</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost normal-case text-primary text-2xl font-extrabold">Oyyi</a>
+    <a class="btn btn-ghost " href="/">
+      <Logo/>
+    </a>
   </div>
   <div class="navbar-center hidden lg:flex">
     <ul class="menu menu-horizontal px-1">
-      <li><a>APIS</a></li>
-      <li><a>Features</a></li>
-      <li><a>Documentation</a></li>
-      <li><a>Dashboard</a></li>
+      <li><a href="#functions">Functions</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="https://docs.oyyi.xyz">Documentation</a></li>
+      <li><a href="https://dashboard.oyyi.xyz">Dashboard</a></li>
     </ul>
   </div>
   <div class="navbar-end">
-    <a class="btn btn-ghost rounded-[0]">Login</a>
-    <a class="btn btn-primary rounded-[0]">Get started</a>
+    <a href="https://dashboard.oyyi.xyz/login" class="btn btn-ghost rounded-[0]">Login</a>
+    <a href="https://dashboard.oyyi.xyz/register" class="btn btn-primary rounded-[0]">Get started</a>
   </div>
 </div>

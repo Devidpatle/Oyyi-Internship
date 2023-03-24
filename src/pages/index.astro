@@ -2,14 +2,23 @@
 import Layout from '../layouts/Layout.astro';
 import Hero from '../components/Hero.astro';
 import Api from '../components/Api.astro';
-import WhyUs from '../components/WhyUs.astro';
+import Features from '../components/Features.astro';
 import OurCustomer from '../components/OurCustomer.astro';
 import Pricing from '../components/Pricing.astro';
+import Faq from '../components/Faq.astro';
+import Contact from '../components/Contact.astro';
 ---
 <Layout title="Oyyi Clouds">
- <Hero/>
+ <Hero title="Cloud Processing Made Out Of Perfection!"
+       description="Our multiple APIs are made to meet your need as developer and implement without getting worried about coding it."
+       secondBtn=true
+        link="#functions"
+       image="/images/cloudprocess.svg"
+ />
      <Api/>
-     <WhyUs/>
+     <Features/>
      <OurCustomer/>
      <Pricing/>
+    <Faq/>
+    <Contact/>
 </Layout>

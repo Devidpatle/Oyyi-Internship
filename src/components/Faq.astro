@@ -1,30 +1,18 @@
-  <section id="faq" class="bg-slate-600 bg-opacity-20">
-    <h1
-        data-aos="fade-up"
-        class="text-center text-green-500 text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold pt-10 sm:pt-24"
-    >
-      Frequently Asked Questions
-    </h1>
-    <div class="pt-20 pb-10 text-sm lg:text-lg">
-      <details class="faq">
-        <summary class="ques">What is the pricing of the basic plan?</summary>
-        <p class="ans">Ans: You can subscribe the basic plan for free.</p>
-      </details>
-      <details class="faq">
-        <summary class="ques">What is the pricing of the basic plan?</summary>
-        <p class="ans">Ans: You can subscribe the basic plan for free.</p>
-      </details>
-      <details class="faq">
-        <summary class="ques">What is the pricing of the basic plan?</summary>
-        <p class="ans">Ans: You can subscribe the basic plan for free.</p>
-      </details>
-      <details class="faq">
-        <summary class="ques">What is the pricing of the basic plan?</summary>
-        <p class="ans">Ans: You can subscribe the basic plan for free.</p>
-      </details>
-      <details class="faq">
-        <summary class="ques">What is the pricing of the basic plan?</summary>
-        <p class="ans">Ans: You can subscribe the basic plan for free.</p>
-      </details>
+---
+import FaqItem from "./partials/FaqItem.astro";
+---
+<section class="bg-white dark:bg-gray-900">
+    <div class="container max-w-4xl px-6 py-10 mx-auto">
+        <h1 class="text-2xl font-semibold text-center text-gray-800 lg:text-3xl dark:text-white">Frequently asked
+            questions</h1>
+
+        <div class="mt-12 space-y-8">
+            <FaqItem question="What the pricing of these services?"
+                     answer="Almost every service is free and will meet all your requirements and in case you need more reources you can upgrade the plan"/>
+            <FaqItem question="How to report bugs?"
+                     answer="You can report bugs directly by sending mail to blackhat9118@gmail.com or reaching out to our lead developer at github.com/coder9118"/>
+            <FaqItem question="Is this services reliable?"
+                     answer="Yes our services are reliable and backed by mutiple hosting providers and our development need fixes it on daily basis"/>
+        </div>
     </div>
-  </section>
+</section>

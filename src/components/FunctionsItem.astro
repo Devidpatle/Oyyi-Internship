@@ -1,0 +1,15 @@
+---
+const {title, description, image = "", link = ""} = Astro.props;
+---
+<div class="card shadow-sm my-3">
+    <figure class="px-10 pt-10">
+        <img src={image} alt={title}  class="rounded-sm max-w-[300px]" />
+    </figure>
+    <div class="card-body items-center text-center">
+        <h2 class="card-title text-primary"> {title}</h2>
+        <p class="text-justify my-3">{description}</p>
+        <div class="card-actions">
+            <a href={link} class="btn btn-primary btn-outline rounded-[0]">Read Docs</a>
+        </div>
+    </div>
+</div>
