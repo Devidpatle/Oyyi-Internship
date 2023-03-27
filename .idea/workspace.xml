@@ -6,16 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f4fb5a00-82f1-4259-afab-9ed82b92ca63" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/http.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/image_classifier.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/java logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/js-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/php-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/FunctionsItem.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/FunctionsItem.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Hero.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Hero.astro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/media-api.astro" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/media-api.astro" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +76,7 @@
       <workItem from="1679724908403" duration="5912000" />
       <workItem from="1679744857913" duration="756000" />
       <workItem from="1679817018665" duration="88000" />
-      <workItem from="1679898553434" duration="78000" />
+      <workItem from="1679898553434" duration="779000" />
     </task>
     <servers />
   </component>
