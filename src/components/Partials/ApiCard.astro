@@ -2,7 +2,7 @@
 const { title,description,image,link} = Astro.props
 ---
   
-<div class="card card-side dark:bg-gray-900 w-1/3 border-slate-400 shadow-sm drop-shadow-sm hover:shadow-lg hover:resize-y">
+<div class="card card-side dark:bg-gray-900 w-1/3 flex lg:flex-cols border-slate-400 shadow-sm drop-shadow-sm hover:shadow-lg hover:resize-y">
   <figure><img src={image} alt={title} class="" /></figure>
   <div class="card-body">
     <h2 class="card-title font-extrabold text-secondary text-2xl">{title}</h2>
