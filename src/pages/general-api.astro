@@ -7,17 +7,20 @@ const features = [
     {
         title: "Avatar Generation Api",
         description: "Use this api route to get random and unique avatar for api. Use it for default profile pic or profile placeholder for any website ,app or anywhere. You don't need any library to generate avatar , just a simple http request.",
-        docs: ""
+        docs: "",
+        image: "/images/NewAvatarGenerationApi.jpg"
     },
     {
         title: "QR Generator Api",
         description: "Generate Qr code with a single api request. Easy to use with any programming language and don't required you to install any library.",
-        docs: ""
+        docs: "",
+        image: "/images/Qr_code-api.png"
     },
     {
         title: "Fake Data Api",
         description: " Generate fake data for you api or app development process. Support almost every data types including name phone credit card and others more.",
         docs: "",
+        image: "/images/Fake_dataApi.jpg"
     }
 ]
 ---
@@ -25,11 +28,15 @@ const features = [
     <Hero title="General Purpose APi for development needs." description="These are those api which you will surely need in every project either for backend or app or any development."
     link="#general-functions"
     />
-    <section class="bg-white w-100" id="general-functions">
+    <section class="bg-[#061404]  w-100 py-48" id="general-functions">
         <div class="container mx-auto">
-            <div class="grid grid-cols-3 gap-10 grid-flow-dense item-center">
+            <div class="title-wrapper mb-36 text-center">
+                <h2 class="tracking-tight sm:text-4xl mt-2 mb-2 leading-none text-3xl font-bold text-[#2A74DC]">General Api</h2>
+                <h3 class="text-2xl text-white">Upload, Process and Store</h3>
+            </div>
+            <div class="grid grid-cols-3 gap-10 grid-flow-dense item-center px-7 py-7">
                 {features.map((item) => (
-                        <FunctionsItem title={item.title} description={item.description}/>
+                        <FunctionsItem title={item.title} description={item.description} image={item.image}/>
                 ))}
             </div>
         </div>

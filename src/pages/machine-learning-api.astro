@@ -45,9 +45,13 @@ const features = [
     <Hero title="Machine Learning Task Made Easy With Simple Api."
           link="#machine-learning-functions"
           description=" with machine learning api you can do every ml task with just a simple http request and with doing any computation"/>
-    <section class="bg-white w-100" id="machine-learning-api">
+    <section class="bg-[#061404]  w-100 py-48" id="machine-learning-api">
         <div class="container mx-auto">
-            <div class="grid grid-cols-3 gap-10 grid-flow-dense item-center">
+            <div class="title-wrapper mb-36 text-center">
+                <h2 class="tracking-tight sm:text-4xl mt-2 mb-2 leading-none text-3xl font-bold text-[#2A74DC]">Machine Learning Api</h2>
+                <h3 class="text-2xl text-white">Upload, Process and Store</h3>
+            </div>
+            <div class="grid grid-cols-3 gap-10 grid-flow-dense item-center px-5 py-5">
                 {features.map((item) => (
                         <FunctionsItem title={item.title} description={item.description} image={item.image}/>
                 ))}
