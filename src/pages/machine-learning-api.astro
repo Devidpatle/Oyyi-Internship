@@ -7,31 +7,37 @@ const features = [
         title: "Object Detection Api",
         description: " Object Detection is part of Machine Learning , in which we use different algorithm to detect object in\n" +
             "              Image, Or Video files. Our algorithm can detect around 10K+ different objects.",
-        docs: ""
+        docs: "",
+        image: "/images/New_objectDetectionApi.png"
+        
     },
     {
         title: "Text Sentiment analysis Api",
         description: " Text Sentiment allow you to predict the sentiment of text either data is POSITIVE , NEGATIVE ,\n" +
             "              NEUTRAL. You can use this result to predict user reviews and many other task on you server side.",
-        docs: ""
+        docs: "",
+        image: "/images/newSentiment-Analysis-API.webp"
     },
     {
         title: "Language Processing Api",
         description: " Language Processing api is also Natural Language Processing Api allow you to extract meaningful part\n" +
             "              of human language by the means of NLP algorithm.",
-        docs: ""
+        docs: "",
+        image: "/images/language_processing_api.webp"
     },
     {
         title: "Facial Sentiment Api",
         description: " Face Sentiment api allow you to detect sentiment of person within the image. Along with sentiment\n" +
             "              other characteristics like Age , Face Coordinate , Gender , Emotion , Race",
-        docs: ""
+        docs: "",
+        image: "/images/New_Facial-Recognition.jpg"
     },
     {
         title: "Text Recognition Api",
         description: "Text Recognition api allow you to extract text from image , video or any visual documents. Our Api are\n" +
             "              trained to detect more than 100 different languages and many scripts.",
-        docs: ""
+        docs: "",
+        image: "/images/New_text_recognition.png"
     }
 ]
 ---
@@ -43,7 +49,7 @@ const features = [
         <div class="container mx-auto">
             <div class="grid grid-cols-3 gap-10 grid-flow-dense item-center">
                 {features.map((item) => (
-                        <FunctionsItem title={item.title} description={item.description}/>
+                        <FunctionsItem title={item.title} description={item.description} image={item.image}/>
                 ))}
             </div>
         </div>
