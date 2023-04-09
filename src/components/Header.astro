@@ -1,7 +1,7 @@
 ---
 import Logo from "../components/Logo.astro";
 ---
-<div class="navbar bg-black text-white py-4 lg:px-36 ">
+<div class="navbar bg-transparent w-full text-black py-4 lg:px-36 text-center flex z-50 fixed top-0 ">
   <div class="navbar-start">
     <div class="dropdown">
       <label tabindex="0" class="btn btn-ghost lg:hidden">
@@ -14,20 +14,20 @@ import Logo from "../components/Logo.astro";
         <li><a href="https://dashboard.oyyi.xyz">Dashboard</a></li>
       </ul>
     </div>
-    <a class="btn btn-ghost " href="/">
+    <a class="btn btn-ghost px-4 " href="/">
       <Logo/>
     </a>
   </div>
-  <div class="navbar-center hidden lg:flex ">
-    <ul class="menu menu-horizontal px-1 ">
-      <li class="text-white hover:text-[#2A74DC]"><a href="#functions">Functions</a></li>
-      <li class="text-white hover:text-[#2A74DC]"><a href="#features">Features</a></li>
-      <li class="text-white hover:text-[#2A74DC]"><a href="https://docs.oyyi.xyz">Documentation</a></li>
-      <li class="text-white hover:text-[#2A74DC]"><a href="https://dashboard.oyyi.xyz">Dashboard</a></li>
+  <div class="navbar-center hidden py -0 static bg-transparent  lg:flex ">
+    <ul class="menu menu-horizontal text-md flex font-extrabold  ">
+      <li class="text-[#637381] hover:text-[#3E7DFF]"><a href="#functions">Functions</a></li>
+      <li class="text-[#637381] hover:text-[#3E7DFF]"><a href="#features">Features</a></li>
+      <li class="text-[#637381] hover:text-[#3E7DFF]"><a href="https://docs.oyyi.xyz">Documentation</a></li>
+      <li class="text-[#637381] hover:text-[#3E7DFF]"><a href="https://dashboard.oyyi.xyz">Dashboard</a></li>
     </ul>
   </div>
-  <div class="navbar-end">
-    <a href="https://dashboard.oyyi.xyz/login" class="btn btn-ghost rounded-[0] text-white hover:text-[#2A74DC] ">Login</a>
-    <a href="https://dashboard.oyyi.xyz/register" class="text-white bg-gradient-to-br from-green-400 to-blue-600 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-green-200 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2">Get Started</a>
+  <div class="navbar-end gap-2">
+    <a href="https://dashboard.oyyi.xyz/login" class="inline-block rounded-full border-2 font-extrabold border-[#637381] px-8 pb-[6px] pt-2  uppercase leading-normal text-[#637381] transition duration-150 ease-in-out hover:border-[#3E7DFF] hover:bg-[#3E7DFF] hover:text-white focus:border-primary-600 focus:text-primary-600 focus:outline-none focus:ring-0 active:border-primary-700 active:text-primary-700 dark:hover:bg-neutral-100 dark:hover:bg-opacity-10 ">Login</a>
+    <a href="https://dashboard.oyyi.xyz/register" class="text-[#3E7DFF] font-extrabold">REGISTER</a>
   </div>
 </div>
