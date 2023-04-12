@@ -2,13 +2,13 @@
 const {title,description,icon} = Astro.props;
 import { Icon } from 'astro-icon'
 ---
-<div class="relative pl-16">
+<div class="relative pl-16 text-center ">
     <dt class="text-base font-semibold leading-7">
-        <div class="absolute top-0 left-0 flex p-1 h-10  w-10 items-center justify-center rounded-lg">
+        <div class=" bg-[#3E7DF5] justify-center items-center flex mb-7 mr-auto ml-auto h-20  w-20 rounded-r-full">
            <img src={icon} alt={title}/>
         </div>
-        <h3 class="text-[#2A74DC] font-extrabold">{title}</h3>
+        <h3 class="text-[#080321] leading-10 font-body font-semibold mb-3 m-0 text-2xl">{title}</h3>
     </dt>
-    <dd class="mt-2 text-base leading-7 text-white">{description}</dd>
+    <dd class=" text-lg  font-medium font-body leading-7 text-[#637381]">{description}</dd>
 </div>
 
