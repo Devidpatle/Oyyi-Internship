@@ -1,5 +1,11 @@
 ---
 import FeatureCard from "./FeatureCard.astro";
+import svg1 from "../assets/svg/easy-use.svg";
+import svg2 from "../assets/svg/cost-effective.svg";
+import svg3 from "../assets/svg/secure.svg";
+import svg4 from "../assets/svg/fast.svg";
+import svg5 from "../assets/svg/fast.svg";
+import svg6 from "../assets/svg/fast.svg";
 ---
 <section class="bg-[#F0F5F9] text-white dark:bg-zinc-900 py-24 sm:py-32" id="features">
     <div class="mx-auto max-w-7xl px-6 lg:px-8">
@@ -13,22 +19,22 @@ import FeatureCard from "./FeatureCard.astro";
             <dl class="grid max-w-xl grid-cols-1 gap-y-10 gap-x-8 lg:max-w-none lg:grid-cols-2 lg:gap-y-16">
                 <FeatureCard title="Simple to Use"
                              description=" Our API are simple to use with any programming language with network Library."
-                             icon="https://img.icons8.com/ios/50/374151/happy-cloud.png"/>
+                             icon={svg1}/>
                 <FeatureCard title="Cost Effective"
                              description="Free plan of the API service is suitable for small projects and cheaper than any API provider."
-                             icon="https://img.icons8.com/ios/50/374151/expensive-2--v1.png"/>
+                             icon={svg2} />
                 <FeatureCard title="Secure"
                              description=" Our tech team has spent sufficient time designing secure API with HTTPS, TLS enabled."
-                             icon="https://img.icons8.com/ios/50/374151/keyhole-shield.png"/>
+                             icon={svg3}/>
                 <FeatureCard title="Fast"
                              description="Our Web Servers are configured to deliver response within seconds for large through puts of your services."
-                             icon="https://img.icons8.com/ios/50/374151/quick-mode-on.png"/>
+                             icon={svg4}/>
                 <FeatureCard title="Large API Sets"
                              description=" We have covered all the major API that are needed for any web services. 20+ APIs and New API adding soon."
-                             icon="https://img.icons8.com/ios/50/374151/api-settings.png"/>
+                             icon={svg5}/>
                 <FeatureCard title="SDKs"
                              description=" SDK for almost every popular programming language like Python, PHP, Javascript. (Coming Soon)"
-                             icon="https://img.icons8.com/ios/50/374151/code.png"/>
+                             icon={svg6}/>
 
             </dl>
         </div>
