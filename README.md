@@ -1,1 +1,1 @@
-[Live Deployed Link](https://oyyi-internship.vercel.app/)
+[Live Deployed Link (Desktop Mode)](https://oyyi-internship.vercel.app/)
